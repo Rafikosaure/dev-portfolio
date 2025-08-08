@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" href="/favicon.ico" />
+
+    <!-- Auteur du portfolio (Rafik BEN SADI) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Rafik Ben Sadi",
+        "alternateName": "Développeur Web",
+        "url": "https://rafikbensadi.com",
+        "image": "https://rafikbensadi.com/Images/portfolio_banner.png",
+        "jobTitle": "Développeur Web",
+        "description": "Développeur web. Je conçois des sites web modernes, performants et sur mesure avec React, Node.js, MongoDB et bien d'autres technologies.",
+        "sameAs": [
+          "https://github.com/Rafikosaure",
+          "https://www.linkedin.com/in/rafikbensadi",
+          "https://x.com/BenSadiRaf27412"
+        ]
+      }
+    </script>
+
+    <!-- Site portfolio -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Rafik Ben Sadi – Développeur Web",
+        "url": "https://rafikbensadi.com"
+      }
+    </script>
+
+    <!-- Projets Portfolio -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CreativeWork",
+            "name": "Star-Wars Encyclopedia, site pour les fans de Star Wars",
+            "url": "https://www.star-wars-encyclopedia.com",
+            "description": "Site interactif combinant un wiki, un forum, une vidéothèque et une e-boutique. Réalisé en React, Node.js, MongoDB, avec tests automatisés et CI/CD.",
+            "author": {
+              "@type": "Person",
+              "name": "Rafik Ben Sadi"
+            },
+            "keywords": "React, Node.js, MongoDB, Redux, Docker, Jest, forum, wiki, boutique en ligne"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Site de gestion de projet de type Trello",
+            "url": "https://rafikosaure.github.io/Trello-clone/",
+            "description": "Clone de Trello codé en TypeScript avec glisser-déposer de cartes. Projet personnel d'apprentissage du typage statique.",
+            "author": {
+              "@type": "Person",
+              "name": "Rafik Ben Sadi"
+            },
+            "keywords": "TypeScript, Trello, Kanban, Drag and Drop, Gestion de projet, JavaScript"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Site de Kasa, agence de location d'appartement",
+            "url": "https://kasa-blue.vercel.app/",
+            "description": "Site vitrine pour agence immobilière, réalisé avec ReactJS, SASS et animations CSS. Design responsive et UX soignée.",
+            "author": {
+              "@type": "Person",
+              "name": "Rafik Ben Sadi"
+            },
+            "keywords": "React, SASS, CSS3, HTML5, location, immobilier, design responsive"
+          },
+          {
+            "@type": "SoftwareSourceCode",
+            "name": "API Rest proposant des artefacts issus de Star Wars",
+            "url": "https://star-wars-artefacts-api.vercel.app",
+            "description": "API Rest développée en Next.js pour un site e-commerce fictif d’artefacts Star Wars.",
+            "programmingLanguage": "JavaScript",
+            "author": {
+              "@type": "Person",
+              "name": "Rafik Ben Sadi"
+            },
+            "keywords": "API, Next.js, Star Wars, E-commerce, Backend, REST, DALL-E"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Site de Nina Carducci, photographe freelance",
+            "url": "https://rafikosaure.github.io/nina-carducci-photographe-pro/",
+            "description": "Refonte et optimisation SEO d’un site de photographe. Amélioration de l’accessibilité et des performances (Google Lighthouse).",
+            "author": {
+              "@type": "Person",
+              "name": "Rafik Ben Sadi"
+            },
+            "keywords": "SEO, performance web, accessibilité, optimisation, photographie"
+          },
+          {
+            "@type": "CreativeWork",
+            "name": "Site portfolio, version conçue avec Webflow (No Code)",
+            "url": "https://portfolio-de-rafik-ben-sadi.webflow.io/",
+            "description": "Portfolio développé sans code avec Webflow, démontrant efficacité, responsivité et bonnes pratiques de conception.",
+            "author": {
+              "@type": "Person",
+              "name": "Rafik Ben Sadi"
+            },
+            "keywords": "Webflow, No Code, Portfolio, Responsive, Design Web"
+          }
+        ]
+      }
+    </script>
+
+    <!-- Balises Open Graph (Facebook, LinkedIn, etc.) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Rafik Ben Sadi – Développeur Web" />
+    <meta property="og:description" content="Je développe votre projet de site WEB de A à Z avec des technologies modernes." />
+    <meta property="og:image" content="https://rafikbensadi.com/Images/portfolio_banner.png" />
+    <meta property="og:url" content="https://rafikbensadi.com" />
+    <meta property="og:site_name" content="Rafik Ben Sadi | Portfolio" />
+
+    <!-- Balises Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Rafik Ben Sadi – Développeur Web" />
+    <meta name="twitter:description" content="Création de sites web modernes, performants et sur mesure. Découvrez mon portfolio !" />
+    <meta name="twitter:image" content="https://rafikbensadi.com/Images/portfolio_banner.png" />
+    <meta name="twitter:image:alt" content="Illustration de développeur web avec le texte : Rafik Ben Sadi – Développeur Web" />
+
+    <!-- Description et titre de la page -->
+    <meta
+      name="description"
+      content="Rafik Ben Sadi – Développeur web. Création de sites modernes et performants, de A à Z. React, Node.js, MongoDB, SEO, UI/UX et plus."
+    />
+    <title>Rafik Ben Sadi | Portfolio</title>
+
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

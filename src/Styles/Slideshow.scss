@@ -1,0 +1,81 @@
+$color_1: white;
+$color_2: black;
+$font-family_1: Arial;
+@mixin button-image {
+    background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.slideshow {
+    width: 86%;
+    height: auto;
+    border: solid 1px grey;
+    border-radius: 10px;
+    @media (min-width: 768px) {
+        width: 86%;
+        height: auto;
+        border: solid 1px grey;
+        border-radius: 25px;
+    }
+    .slideshow__switchcontent {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        .slideshow__currentImage {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            @media (min-width: 768px) {
+                border-radius: 25px;
+            }
+        }
+        .slideshow__buttons {
+            width: 15px;
+            height: 24px;
+            position: absolute;
+            border: none;
+            cursor: pointer;
+            margin: 20px;
+            @media (min-width: 768px) {
+                width: 47px;
+                height: 79px;
+            }
+        }
+        .slideshow__buttonPrev {
+            left: 0px;
+            background: url("../Images/arrow_left.webp");
+            @include button-image;
+        }
+        .slideshow__buttonNext {
+            right: 0px;
+            background: url("../Images/arrow_right.webp");
+            @include button-image;
+        }
+        .slideshow__counter {
+            position: absolute;
+            bottom: 0%;
+            width: 20%;
+            left: 40%;
+            text-align: center;
+            color: $color_2;
+            text-shadow:
+                1px 1px 0 $color_1,
+                -1px 1px 0 $color_1,
+                -1px -1px 0 $color_1,
+                1px -1px 0 $color_1;
+            font-size: 24px;
+            font-family: $font-family_1;
+            font-weight: 500;
+            display: none;
+            @media (min-width: 768px) {
+                display: block;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,77 @@
+[
+	{
+		"id": "b9123946",
+		"shortTitle": "Site web d'une agence de voyage",
+		"title": "Site web de Booki, agence de voyage",
+		"cover": "Images/booki_project.webp",
+		"description": "Ce projet a consisté en l'intégration de la page d'accueil de l'agence de voyage Booki. Le logiciel de design collaboratif en ligne Figma a été utilisé pour la maquette. Parfaitement respectueux de la sémantique du Web, il est une magnifique démonstration de ce qui se fait de mieux en HTML5 et CSS3 à l'heure actuelle. Conforme aux attentes exigées par le World Wide Web Consortium, il est parfaitement adapté à toutes les tailles d'écran (desktop, tablette et mobile) grâce à sa conception respectueuse du Responsive Design. Il reprend les dernières normes du HTML5 telles que la structuration Header/Main/Footer, ainsi que du CSS3 avec l'usage des boîtes flexibles pour le positionnement des éléments. Ce projet Booki n'a pas été ma première création en HTML5 et CSS3, mais en raison du niveau de complexité qu'à nécessité sa réalisation, il a été pour moi un défi certain, qui s'est révélé très formateur.",
+		"technologies": "HTML5, CSS3, FLEXBOX, FIGMA, icones FONT-AWESOME.",
+		"urlSite": "https://rafikosaure.github.io/booki-agence-de-voyage/",
+		"urlRepo": "https://github.com/Rafikosaure/booki-agence-de-voyage"
+	},
+	{
+		"id": "46d188c5",
+		"shortTitle": "Site d'une architecte d'intérieur",
+		"title": "Site de Sophie Bluel, architecte d'intérieur",
+		"cover": "Images/sophie_bluel_architecte_d_interieur.webp",
+		"pictures": [
+			"Images/images_projets/sophie_bluel/image_01_sophie_bluel.webp",
+			"Images/images_projets/sophie_bluel/image_02_sophie_bluel.webp",
+			"Images/images_projets/sophie_bluel/image_03_sophie_bluel.webp",
+			"Images/images_projets/sophie_bluel/image_04_sophie_bluel.webp",
+			"Images/images_projets/sophie_bluel/image_05_sophie_bluel.webp",
+			"Images/images_projets/sophie_bluel/image_06_sophie_bluel.webp",
+			"Images/images_projets/sophie_bluel/image_07_sophie_bluel.webp",
+			"Images/images_projets/sophie_bluel/image_08_sophie_bluel.webp"
+		],
+		"description": "Ce site est le portfolio en ligne de l'architecte d'intérieur Sophie Bluel. Sa réalisation a été pour moi un vrai rite de passage puisqu'il m'a initié au langage Javascript, incontournable pour tout développeur frontend (c'est à dire qui travaille sur le rendu visible du site dans la fenêtre du navigateur Web). Ce projet comporte une galerie d'images que l'on peut filtrer par catégorie, une interface connecté/déconnecté fonctionnant via un formulaire de connexion, et même une boîte modale pour ajouter ou supprimer des images (disponible en mode connecté uniquement). Ce projet m'a également initié au traitement de données récupérées depuis une API, ce qui est aujourd'hui une compétence fondamentale pour tout développeur Web. Les difficultés que j'ai rencontré sont inhérentes à tout apprentissage d'un langage depuis zéro : il m'a fallu beaucoup de patience et de motivation pour y arriver, mais les compétences et techniques finalement acquises sont une belle récompense.",
+		"technologies": "HTML5, CSS3, JAVASCRIPT, FIGMA, API, NODE.JS.",
+		"urlSite": "#",
+		"urlRepo": "https://github.com/Rafikosaure/sophie-bluel-architecte-interieur"
+	},
+	{
+		"id": "f72a452f",
+		"shortTitle": "Site de notation de livres en Node.js/Express",
+		"title": "Mon Vieux Grimoire, site de référencement et de notation de livres",
+		"cover": "Images/mon_vieux_grimoire.webp",
+		"pictures": [
+			"Images/images_projets/mon_vieux_grimoire/image_01_mon_vieux_grimoire.webp",
+			"Images/images_projets/mon_vieux_grimoire/image_02_mon_vieux_grimoire.webp",
+			"Images/images_projets/mon_vieux_grimoire/image_03_mon_vieux_grimoire.webp",
+			"Images/images_projets/mon_vieux_grimoire/image_04_mon_vieux_grimoire.webp",
+			"Images/images_projets/mon_vieux_grimoire/image_05_mon_vieux_grimoire.webp",
+			"Images/images_projets/mon_vieux_grimoire/image_06_mon_vieux_grimoire.webp",
+			"Images/images_projets/mon_vieux_grimoire/image_07_mon_vieux_grimoire.webp"
+		],
+		"description": "Le site Mon Vieux Grimoire est l'idée d'une association de libraires lillois désirant un site Web où des lecteurs pourraient partager leurs tendances et leurs avis sur des ouvrages. Qu'à cela ne tienne : Mon Vieux Grimoire permet donc de créer un compte utilisateur, d'ajouter des livres à la base de données et, bien sûr, de leur attribuer une note sur 5 visible par l'ensemble des internautes. La partie frontend de ce projet est l'œuvre d'un ami. Ma tâche a été de mettre en place le backend du site, c'est à dire l'ensemble des routes permettant les fonctionnalités d'inscription et de connexion au site, ainsi que les fonctionnalités de lecture, de création, de mise à jour, de suppression de livres, d'attribution des notes et de calcul des moyennes des notes. J'ai également eu avec ce projet l'opportunité de m'initier au GreenIT en travaillant sur les images utilisées pour les couvertures des livres (redimensionnement et export vers le format .webp). Enfin, j'ai également mis en place tout le système de sécurité de la base de données et du serveur. Grâce à une documentation très efficace et à l'expérience acquise en NodeJs, ce projet ne m'a pas causé de vraie difficulté, malgré son apparente complexité.",
+		"technologies": "NODE.JS, EXPRESS, MONGODB ATLAS, MONGOOSE, JSONWEBTOKEN, BCRYPT, MULTER, SHARP.",
+		"urlSite": "#",
+		"urlRepo": "https://github.com/Rafikosaure/mon-vieux-grimoire-notation-de-livres"
+	},
+	{
+		"id": "d60ca600",
+		"shortTitle": "Présentation d'entreprise conçue par IA",
+		"title": "Présentation en Cybersécurité conçue par Intelligence Artificielle",
+		"cover": "Images/gamma-cybersecurite-diapo.webp",
+		"description": "Cette présentation interactive sur les fondamentaux de la cybersécurité a été générée avec Gamma, une IA spécialisée dans la création automatisée de supports professionnels. En s’appuyant sur des modèles génératifs de textes et d’images, elle produit un contenu structuré et personnalisable. Pour explorer le potentiel de ces outils, j’ai intégré et adapté cette présentation dans une page Web stylisée et déployée sur mon portfolio. Ce projet illustre l’évolution des technologies IA appliquées au Web et leur capacité à optimiser la production de contenu. Il s’inscrit dans ma démarche personnelle de développement avec des IA d'avant-garde telles que ChatGPT, HeyGen, Claude, DALL-E, Mistral AI, Copilot, TensorFlow, Gemini et bien d'autres.",
+		"technologies": "HTML5, CSS3, GAMMA-AI.",
+		"urlSite": "https://rafikosaure.github.io/gamma-ai-presentation",
+		"urlRepo": "https://github.com/Rafikosaure/gamma-ai-presentation"
+	},
+	{
+		"id": "c67ab8a7",
+		"shortTitle": "Site web d'un restaurant",
+		"title": "Site web de Pizza Mama, restaurant de pizzas",
+		"cover": "Images/pizzamama.webp",
+		"pictures": [
+			"Images/images_projets/pizza_mama/image_01_pizza_mama.webp",
+			"Images/images_projets/pizza_mama/image_02_pizza_mama.webp",
+			"Images/images_projets/pizza_mama/image_03_pizza_mama.webp",
+			"Images/images_projets/pizza_mama/image_04_pizza_mama.webp"
+		],
+		"description": "Ce site Web a été ma première expérience en développement côté serveur, et le langage utilisé ici est le Python. Conçu avec le framework Django, il dispose d'une base de données locale recensant les meilleures pizzas de chez Pizza Mama, la pizzeria qu'il vous faut pour vos soirées entre amis ! Plus serieusement, le système utilisé par Django est simple : pour chaque page est créée une application, avec son propre modèle de données. Puis ce modèle sert à établir la structure des données enregistrées, selon le paradigme de la programmation orientée objet, afin d'effectuer les opérations de création, d'affichage ou de suppression des données. Ici, les objets sont simplement des pizzas, et le modèle de données inclue donc pour chaque pizza un nom, des ingrédients, un prix et enfin un tag qui précise si la pizza est ou non végétarienne. La structure logique de ce projet a été complexe à comprendre et à mettre en place en raison des nécessaires compétences de développement en backend avec ce framework qu'est Django, mais l'expérience que j'ai acquise en développement avec d'autres langages comme NodeJS m'a permis finalement d'intégrer les concept-clés ainsi que de mieux comprendre les subtilités de Django.",
+		"technologies": "HTML5, CSS3, PYTHON, DJANGO, PYCHARM.",
+		"urlSite": "#",
+		"urlRepo": "https://github.com/Rafikosaure/pizza-mama"
+	}
+]

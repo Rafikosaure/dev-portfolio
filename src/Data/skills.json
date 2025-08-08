@@ -1,0 +1,449 @@
+[
+	{
+		"id": "14WtDH69oLFT9OD",
+		"title": "UI-UX Design",
+		"skills": [
+			{
+				"id": "YRHc1s69m7pqQu8",
+				"name": "Culture numérique",
+				"picture": "Images/skills_icons/culture.png"
+			},
+			{
+				"id": "3RpXZFylOA2DSRY",
+				"name": "Figma",
+				"picture": "Images/skills_icons/figma.svg"
+			},
+			{
+				"id": "voKBsYhdbNmAEGL",
+				"name": "Webflow (No Code)",
+				"picture": "Images/skills_icons/webflow.svg"
+			},
+			{
+				"id": "6lN9AokEXlwQcMn",
+				"name": "Canva",
+				"picture": "Images/skills_icons/canva.svg"
+			},
+			{
+				"id": "kTieIzr9yzV0Noo",
+				"name": "GIMP",
+				"picture": "Images/skills_icons/gimp.svg"
+			},
+			{
+				"id": "bySfIKD9G646sSZ",
+				"name": "Inkscape",
+				"picture": "Images/skills_icons/inkscape.svg"
+			},
+			{
+				"id": "32DkYoHGPqsqk2m",
+				"name": "Responsive Design",
+				"picture": "Images/skills_icons/responsive_design.png"
+			},
+			{
+				"id": "n5yJ7SsTigjBBQM",
+				"name": "Accessibilité",
+				"picture": "Images/skills_icons/accessibilité.png"
+			},
+			{
+				"id": "rdzi5Vr35CC8fsA",
+				"name": "SEO",
+				"picture": "Images/skills_icons/SEO.png"
+			},
+			{
+				"id": "puw4BACwMJ3IRtI",
+				"name": "Lighthouse",
+				"picture": "Images/skills_icons/lighthouse.svg"
+			},
+			{
+				"id": "QKcS1I6biDXR530",
+				"name": "Marketing Digital",
+				"picture": "Images/skills_icons/marketing_digital.png"
+			}
+		]
+	},
+	{
+		"id": "Pm8gGWBvCsZwE8G",
+		"title": "Frontend",
+		"skills": [
+    		{
+				"id": "AMUCJkTNytFstnK",
+				"name": "React JS",
+				"picture": "Images/skills_icons/react.png"
+			},
+			{
+				"id": "J0DKWpCqxh6gH1x",
+				"name": "Redux",
+				"picture": "Images/skills_icons/redux.svg"
+			},
+			{
+				"id": "3nx524yR5XirpMZ",
+				"name": "TypeScript",
+				"picture": "Images/skills_icons/typescript.png"
+			},
+			{
+				"id": "igj5OIbHctAkVXD",
+				"name": "JavaScript",
+				"picture": "Images/skills_icons/javascript.png"
+			},
+			{
+				"id": "XtqgFKQZEdpi6bI",
+				"name": "Vite JS",
+				"picture": "Images/skills_icons/vitejs.svg"
+			},
+			{
+				"id": "MoLecYVYMTlrFB5",
+				"name": "Swagger",
+				"picture": "Images/skills_icons/swagger.svg"
+			},
+			{
+				"id": "kl5OARkTLXQkK46",
+				"name": "HTML5",
+				"picture": "Images/skills_icons/html5.svg"
+			},
+			{
+				"id": "eiZRZEzMD7rps4d",
+				"name": "CSS3",
+				"picture": "Images/skills_icons/css3.svg"
+			},
+			{
+				"id": "noJoS7hqmq9gixZ",
+				"name": "Bootstrap",
+				"picture": "Images/skills_icons/bootstrap.svg"
+			},
+			{
+				"id": "bWLTxKQg7TMc2by",
+				"name": "Tailwind",
+				"picture": "Images/skills_icons/tailwind.svg"
+			},
+			{
+				"id": "UuyXEHaNXpVoHLO",
+				"name": "SASS",
+				"picture": "Images/skills_icons/sass.svg"
+			}
+  		]
+	},
+	{
+		"id": "epa2yagO12zkByS",
+		"title": "Backend",
+		"skills": [
+    		{
+				"id": "nPEbvD3oAFHPTG0",
+				"name": "MySQL",
+				"picture": "Images/skills_icons/mysql.svg"
+			},
+			{
+				"id": "eM1Qr8lGw8AYEIt",
+				"name": "Sequelize",
+				"picture": "Images/skills_icons/sequelize.svg"
+			},
+			{
+				"id": "3h9fP9Ql2t4bz93",
+				"name": "MongoDB",
+				"picture": "Images/skills_icons/mongodb.svg"
+			},
+			{
+				"id": "3UGAEAnNDndkE4M",
+				"name": "Mongoose",
+				"picture": "Images/skills_icons/mongoose.svg"
+			},
+			{
+				"id": "w8U8D7Mtx0VvS8M",
+				"name": "Node JS",
+				"picture": "Images/skills_icons/nodejs.svg"
+			},
+			{
+				"id": "BdkyKseDTTC9wAk",
+				"name": "Express JS",
+				"picture": "Images/skills_icons/express.png"
+			},
+			{
+				"id": "Deog1aGiIsGZYzm",
+				"name": "API REST",
+				"picture": "Images/skills_icons/api.png"
+			},
+			{
+				"id": "iZcSZVb7iiWhZWN",
+				"name": "Postman",
+				"picture": "Images/skills_icons/postman.png"
+			},
+			{
+				"id": "bMFUCMMGJ1Yz00s",
+				"name": "Nodemailer",
+				"picture": "Images/skills_icons/nodemailer.png"
+			},
+			{
+				"id": "crVtTnq1xLhQUow",
+				"name": "Playwright",
+				"picture": "Images/skills_icons/playwright.svg"
+			},
+			{
+				"id": "paRIh6cf45HB9Jw",
+				"name": "NEXT JS",
+				"picture": "Images/skills_icons/nextjs.png"
+			}
+  		]
+	},
+	{
+		"id": "NfDqJfsI4b0Ukla",
+		"title": "Gestion de Projet Digital",
+		"skills": [
+    		{
+				"id": "qWRMQpScuAwGSEs",
+				"name": "Architecture Logicielle",
+				"picture": "Images/skills_icons/architecture_logicielle.png"
+			},
+			{
+				"id": "UIglTwdYcgbSAez",
+				"name": "UML / Merise",
+				"picture": "Images/skills_icons/uml.png"
+			},
+			{
+				"id": "TMI8ReONC9SSiCM",
+				"name": "Trello",
+				"picture": "Images/skills_icons/trello.svg"
+			},
+			{
+				"id": "9u6mUBkJSJcznpU",
+				"name": "Notion",
+				"picture": "Images/skills_icons/notion.svg"
+			},
+			{
+				"id": "7CowqCp7RT5hkhu",
+				"name": "Miro",
+				"picture": "Images/skills_icons/miro.png"
+			},
+			{
+				"id": "zZqDKxjFZBieDG1",
+				"name": "Slack",
+				"picture": "Images/skills_icons/slack.svg"
+			},
+			{
+				"id": "dWQPgM0iokF9f44",
+				"name": "Discord",
+				"picture": "Images/skills_icons/discord.svg"
+			},
+			{
+				"id": "MjOXFGA769Q5Kp6",
+				"name": "TeamGantt",
+				"picture": "Images/skills_icons/teamgantt.png"
+			},
+			{
+				"id": "xV8ttTQZiGCCjG5",
+				"name": "Green IT",
+				"picture": "Images/skills_icons/greenit.png"
+			},
+			{
+				"id": "CoNVNuZ7orEkULc",
+				"name": "Méthodologies Agiles",
+				"picture": "Images/skills_icons/agile.png"
+			},
+			{
+				"id": "pRo0PbuUpaAtgRd",
+				"name": "Méthode en Cascade",
+				"picture": "Images/skills_icons/waterfall.webp"
+			}
+  		]
+	},
+	{
+		"id": "4dd6CSxUhEH6Rgd",
+		"title": "DevOps",
+		"skills": [
+    		{
+				"id": "H6Y3Aha26s1lFIV",
+				"name": "Git",
+				"picture": "Images/skills_icons/git.png"
+			},
+			{
+				"id": "ifE3oSugYMcxuu8",
+				"name": "GitHub",
+				"picture": "Images/skills_icons/github.svg"
+			},
+			{
+				"id": "q5vHxwS26T4e5pG",
+				"name": "Docker",
+				"picture": "Images/skills_icons/docker.svg"
+			},
+			{
+				"id": "xT1sZd3eXEkTOHO",
+				"name": "Bash / PowerShell",
+				"picture": "Images/skills_icons/console.png"
+			},
+			{
+				"id": "xs0oUkCYSP8LYNC",
+				"name": "Jest",
+				"picture": "Images/skills_icons/jest.png"
+			},
+			{
+				"id": "Pic0nPiihjeuIlS",
+				"name": "GitHub Actions",
+				"picture": "Images/skills_icons/github_actions.svg"
+			},
+			{
+				"id": "y8QQqk2Xws0rRYf",
+				"name": "Jenkins",
+				"picture": "Images/skills_icons/jenkins.svg"
+			},
+			{
+				"id": "Mg2hO0OqsuBMc4q",
+				"name": "Linux",
+				"picture": "Images/skills_icons/linux.png"
+			},
+			{
+				"id": "84r7X1bDPbP6v9n",
+				"name": "Apache",
+				"picture": "Images/skills_icons/apache.svg"
+			},
+			{
+				"id": "vgoju3KiOe3wi8X",
+				"name": "cPanel",
+				"picture": "Images/skills_icons/cpanel.png"
+			},
+			{
+				"id": "bdlQaK7jSabO9Bc",
+				"name": "NOC Storage",
+				"picture": "Images/skills_icons/noc_storage.png"
+			},
+			{
+				"id": "LDN7rBjj7nVSeGQ",
+				"name": "Vercel",
+				"picture": "Images/skills_icons/vercel.svg"
+			},
+			{
+				"id": "oi6xJGxFfI7kR4Y",
+				"name": "Cloud AWS",
+				"picture": "Images/skills_icons/aws.svg"
+			}
+  		]
+	},
+	{
+		"id": "EET4b7QQ9vzC2MD",
+		"title": "Cybersécurité",
+		"skills": [
+    		{
+				"id": "NoA90dBe85Te83k",
+				"name": "JWT (JSON Web Token)",
+				"picture": "Images/skills_icons/jwt.png"
+			},
+			{
+				"id": "NyAByJN6xv5Xqmd",
+				"name": "Cookie Parser",
+				"picture": "Images/skills_icons/cookie_parser.png"
+			},
+			{
+				"id": "wIYOwL9whNX07sV",
+				"name": "Bcrypt",
+				"picture": "Images/skills_icons/bcrypt.png"
+			},
+			{
+				"id": "MINAJeP6BSvPq4n",
+				"name": "Helmet",
+				"picture": "Images/skills_icons/helmet.svg"
+			},
+			{
+				"id": "L54w5MKrK15ndJF",
+				"name": "Express Rate Limit",
+				"picture": "Images/skills_icons/express_rate_limit.png"
+			},
+			{
+				"id": "g7dUWh9aApbgZlO",
+				"name": "Bonnes Pratiques de Sécurité",
+				"picture": "Images/skills_icons/cyber-securite.png"
+			},
+			{
+				"id": "pqePy2e4NQyWO1W",
+				"name": "HTTPS / TLS",
+				"picture": "Images/skills_icons/https.png"
+			},
+			{
+				"id": "q5kwsZYsPV6Qvjz",
+				"name": "Dotenv",
+				"picture": "Images/skills_icons/dotenv.png"
+			},
+			{
+				"id": "FWmhPziiXaU81XC",
+				"name": "Gestion des CORS",
+				"picture": "Images/skills_icons/cors.svg"
+			},
+			{
+				"id": "RwxT5nQdCUSGO2k",
+				"name": "GitHub Actions (CI/CD Sécurisé)",
+				"picture": "Images/skills_icons/github_actions.svg"
+			},
+			{
+				"id": "D0bM7XsBTmOM1T0",
+				"name": "ORM Sécurisé",
+				"picture": "Images/skills_icons/orm.png"
+			},
+			{
+				"id": "THrmmXiJpLFJL7i",
+				"name": "Authentification Sécurisée",
+				"picture": "Images/skills_icons/authentication.svg"
+			},
+			{
+				"id": "yTuN4bu2m13DuHX",
+				"name": "Gestion des Erreurs 404",
+				"picture": "Images/skills_icons/404_error.png"
+			},
+			{
+				"id": "Df0BvcI1xwFBqsa",
+				"name": "OWASP Top 10",
+				"picture": "Images/skills_icons/owasp_top_10.png"
+			},
+			{
+				"id": "ULg1VpATpFY4IYb",
+				"name": "OWASP ZAP",
+				"picture": "Images/skills_icons/owasp_zap.png"
+			}
+  		]
+	},
+	{
+		"id": "k69hlMaUKL6UdTQ",
+		"title": "Side Skills",
+		"skills": [
+    		{
+				"id": "0UIWbXBFnC0q1gR",
+				"name": "Python",
+				"picture": "Images/skills_icons/python.svg"
+			},
+			{
+				"id": "oDPSN3Ic68h816C",
+				"name": "SQL",
+				"picture": "Images/skills_icons/sql.png"
+			},
+			{
+				"id": "kEjezf3XUnxqbdt",
+				"name": "SQLite",
+				"picture": "Images/skills_icons/sqlite.svg"
+			},
+			{
+				"id": "2mkEsxPr2qoczcI",
+				"name": "Langage C",
+				"picture": "Images/skills_icons/c.svg"
+			},
+			{
+				"id": "MLtVDmuUbybqpf8",
+				"name": "ChatGPT",
+				"picture": "Images/skills_icons/chatgpt.svg"
+			},
+			{
+				"id": "q7W4viIJzqDvN0o",
+				"name": "Ubuntu Distribution",
+				"picture": "Images/skills_icons/ubuntu.png"
+			},
+			{
+				"id": "Oc1DdyfFNRh6AJ5",
+				"name": "Windows OS",
+				"picture": "Images/skills_icons/windows.png"
+			},
+			{
+				"id": "aJtVlvQ7Bf0Ep6B",
+				"name": "PyCharm",
+				"picture": "Images/skills_icons/pycharm.png"
+			},
+			{
+				"id": "oa42cQk9afzcNRA",
+				"name": "Visual Studio Code",
+				"picture": "Images/skills_icons/vsc.svg"
+			}		
+  		]
+	}
+]

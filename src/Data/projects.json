@@ -1,0 +1,62 @@
+[
+	{
+		"id": "a4de3ncz",
+		"shortTitle": "Wiki sur Star-Wars, avec forum, vidéothèque et e-boutique",
+		"title": "Star-Wars Encyclopedia, site pour les fans de Star Wars",
+		"cover": "Images/swencyclo.webp",
+		"description": "Star Wars Encyclopedia est un site interactif combinant un wiki, un forum de discussion, une vidéothèque et une boutique en ligne. Ce site permet aux fans de Star Wars d'explorer, contribuer et échanger sur l'univers de la saga tout en s'amusant. Ce projet personnel a été réalisé entièrement en autonomie. Le site est responsive, offrant une expérience optimale sur tous les appareils. Les utilisateurs du forum peuvent créer un compte, gérer leur profil, être notifié par email en cas de mention. Le forum permet de créer des discussions, publier des posts ou les commenter, liker les contenus... Le Wiki se base sur une API pour la gestion des articles, tandis que la vidéothèque propose d'explorer les films et séries de la saga. Enfin, la boutique en ligne offre une perspective ludique puisqu'elle simule l'achat d'artefacts en lien avec la saga. Le frontend utilise React, le backend Node.js et Express, avec des tests automatisés et un déploiement via GitHub Actions et Vercel.",
+		"technologies": "REACT, REDUX, NODE.JS, EXPRESS, MONGODB, NODEMAILER, JEST, DOCKER.",
+		"urlSite": "https://www.star-wars-encyclopedia.com",
+		"urlRepo": "https://github.com/Rafikosaure/star-wars-encyclopedia"
+	},
+	{
+		"id": "b4c67936",
+		"shortTitle": "Tableau de gestion de projet en ligne en TypeScript",
+		"title": "Site de gestion de projet de type Trello",
+		"cover": "Images/trello_clone.webp",
+		"description": "Ce site codé en TypeScript est inspiré de Trello et de la méthode Kanban de Toyota, qui sont des techniques utilisées pour gérer des projets en entreprise. Le fonctionnement de Trello associé à la méthode Kanban repose sur une organisation des projets en tableaux listant des cartes, chacune représentant des tâches. Les cartes sont assignables à des utilisateurs et sont mobiles d'une liste à l'autre, traduisant leur avancement. Ce site permet de créer des listes et des cartes, ainsi que de les déplacer avec un glisser-déposer de la souris. Il s'agit ici de mon tout premier projet codé en langage TypeScript. Le langage TypeScript est un sur-ensemble du langage JavaScript, sorte de JavaScript amélioré: il permet comme fonctionnalités un typage statique optionnel des variables et des fonctions ainsi que la création de classes et d'interfaces, tout en conservant l'approche de JavaScript. Il permet donc de réaliser des projets Web en évitant les erreurs de typage courantes de JavaScript, mais tout en bénéficiant aussi de ses atouts. De par ces qualités, TypeScript est un langage très apprécié dans le monde du développement Web, et j'ai personnellement beaucoup apprécié utiliser ce langage pour sa syntaxe que j'ai trouvé plus limpide que celle de JavaScript.",
+		"technologies": "HTML5, CSS3, TYPESCRIPT, JAVASCRIPT.",
+		"urlSite": "https://rafikosaure.github.io/Trello-clone/",
+		"urlRepo": "https://github.com/Rafikosaure/Trello-clone"
+	},
+	{
+		"id": "7af00cd6",
+		"shortTitle": "Site d'une agence immobilière en React",
+		"title": "Site de Kasa, agence de location d'appartement",
+		"cover": "Images/kasa_location_immobiliere.webp",
+		"description": "Kasa, leader depuis près de 10 ans de la location d'appartements entre particuliers en France a fait appel à mes services de développeur frontend afin de développer leur nouvelle plateforme Web. Ce projet a été particulièrement enrichissant pour moi, car il m'a permis d'acquérir la maîtrise de l'un des frameworks frontend les plus populaires sur le marché mondial : ReactJS. Qui plus est, ce projet m'a également servi de terrain d'expérimentation pour d'autres technologies, liées au CSS (c'est à dire pour styliser le contenu du site Web) comme SASS, la convention BEM ou encore les animations CSS avec la propriété CSS transform. Le framework ReactJS lui-même n'a pas été toujours facile à maîtriser malgré sa logique en composants très intuitive car la syntaxe du langage de ReactJS, le JSX, est assez spécifique dans la prise en main. Mais le résultat est là : un site ergonomique, adapté à toutes les tailles d'écran, avec une excellente expérience utilisateur.",
+		"technologies": "HTML5, CSS3, SASS, FIGMA, REACTJS.",
+		"urlSite": "https://kasa-blue.vercel.app/",
+		"urlRepo": "https://github.com/Rafikosaure/kasa-location-appartement-entre-particuliers"
+	},
+	{
+		"id": "2cf259e1",
+		"shortTitle": "API Rest pour site e-commerce en Next.js",
+		"title": "API Rest proposant des artefacts issus de Star Wars",
+		"cover": "Images/star_wars_artefacts_api.webp",
+		"description": "Cette API Rest, un projet personnel, a été conçue dans le but de fournir à un site e-commerce un éventail de produits appartenant à l'univers de la saga Star Wars, bien que d'autres usages de cette API soient tout à fait possibles. Les produits sont des artefacts issus du Canon, de l'univers Legends, ou bien ont été inventés à partir du lore. Les images de l'API ont été majoritairement générés par IA, tandis que la technologie Next.js a été mise en oeuvre pour gérer les routes de l'API. Ce projet est l'un de mes tout premiers avec Next.js, et il est également ma première API Rest : c'est donc un projet qui m'a été riche d'enseignements.",
+		"technologies": "DALL-E, Next.js, SASS.",
+		"urlSite": "https://star-wars-artefacts-api.vercel.app",
+		"urlRepo": "https://github.com/Rafikosaure/star-wars-artefacts-api"
+	},
+	{
+		"id": "0979876d",
+		"shortTitle": "Site d'une photographe freelance (optimisation SEO)",
+		"title": "Site de Nina Carducci, photographe freelance",
+		"cover": "Images/nina_carducci_photographe.webp",
+		"description": "Le site Web de la photographe Nina Carducci existait déjà lorsque j'ai été sollicité pour ce projet : il s'agissait ici de débugguer le site et de l'optimiser pour son référencement sur les moteurs de recherche. Durant cette nouvelle mission, j'ai mis en place des outils et techniques pour que ce site soit le mieux classé possible dans les résultats de Google et qu'il soit, de manière plus générale, mieux visible sur le Web. J'ai fait en sorte qu'il soit autant accessible pour les personnes souffrant de handicaps que pour celles qui n'en souffrent pas. J'ai travaillé à ce que les bonnes pratiques de conception soient appliquées de manière à améliorer le SEO ainsi que les performances générales du site, par exemple en allégeant au maxmimum les images du site tout en gardant une qualité qui fasse honneur au travail de Nina. En effet, il m'a été particulièrement ardu de booster autant que souhaité les performances de ce site en raison de sa nature même : il comporte de nombreuses photographies très lourdes à charger au démarrage, et les alléger suffisamment sans en altérer la qualité a été un défi peu commun.",
+		"technologies": "LIGHTHOUSE, WAVE, HEADINGSMAP, CHROME DEV TOOLS, SCHEMA.ORG, COMPRESSOR.IO, MINIFY JS ONLINE, MINIFY CSS, entre autres.",
+		"urlSite": "https://rafikosaure.github.io/nina-carducci-photographe-pro/",
+		"urlRepo": "https://github.com/Rafikosaure/nina-carducci-photographe-pro"
+	},
+	{
+		"id": "cb2f9222",
+		"shortTitle": "Portfolio de développeur No Code conçu avec Webflow",
+		"title": "Site portfolio, version conçue avec Webflow (No Code)",
+		"cover": "Images/webflow-portfolio.webp",
+		"description": "Ce site est une version alternative de mon portfolio, conçue entièrement avec Webflow. Contrairement à une approche traditionnelle nécessitant du code, cette solution No Code accélère le développement sans compromettre la qualité ni la personnalisation. Webflow automatise la mise en page, la gestion des styles CSS et l’intégration d’animations fluides, tout en garantissant un bon référencement et une parfaite adaptation aux écrans desktop, tablette et mobile. Ce projet illustre comment un développeur peut exploiter le No Code pour gagner en efficacité tout en respectant les standards de performance et de conception Web.",
+		"technologies": "Webflow.",
+		"urlSite": "https://portfolio-de-rafik-ben-sadi.webflow.io/",
+		"urlRepo": "#"
+	}
+]
