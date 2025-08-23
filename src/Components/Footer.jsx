@@ -33,17 +33,13 @@ function Footer() {
                                     >
                                         <p>
                                             Besoin de discuter de votre projet
-                                            et obtenir l'avis d'un expert ?
+                                            et obtenir l'avis d'un professionnel ?
                                             <br />
                                             <br />
-                                            Contactez-moi par{' '}
+                                            N'hésitez pas à me contacter par {' '}
                                             <a href="mailto:rafikbensadi@live.fr?subject=Contact%20depuis%20rafikbensadi.com">
                                                 email
                                             </a>{' '}
-                                            ou directement par téléphone au{' '}
-                                            <a href="tel:+33649363839">
-                                                06 49 36 38 39
-                                            </a>
                                         </p>
                                     </div>
                                 </td>

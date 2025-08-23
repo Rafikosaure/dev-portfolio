@@ -31,8 +31,7 @@ function Header() {
                     />
                     <h1>Rafik Ben Sadi</h1>
                     <p className="cover-description">
-                        Développeur Fullstack | React -
-                        Node JS - SQL - NoSQL
+                        Développeur Fullstack | Stack MERN - SQL - Python
                     </p>
                     <div style={{ textAlign: 'center' }}>
                         <a
@@ -44,12 +43,12 @@ function Header() {
                     </div>
                     <div className={`cover-contact cover-contact-bar-color${colorElementMode}`}>
                         <p>
+                            Ecrivez-moi à :
+                        </p>
+                        <p>
                             <a href="mailto:rafikbensadi@live.fr?subject=Contact%20depuis%20rafikbensadi.com">
                                 rafikbensadi@live.fr
                             </a>
-                        </p>
-                        <p>
-                            <a href="tel:+33649363839">06 49 36 38 39</a>
                         </p>
                     </div>
                 </header>
