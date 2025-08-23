@@ -9,6 +9,7 @@ import Card from '../Components/Card'
 import projects from '../Data/projects.json'
 import skills from '../Data/skills.json'
 import SkillsList from '../Components/SkillsList'
+import textProfile from '../Data/profileText'
 import { useTypingEffect } from '../Hooks/Typing-effect'
 import { Link } from 'react-router-dom'
 import { useInView } from 'react-intersection-observer'
@@ -55,10 +56,7 @@ function Home() {
                     />
                     <div className="col-contenu float-right">
                         <div className="texte-avec-ligne-verticale">
-                            <p className="texte-profile-description">
-                            Développeur fullstack curieux et autodidacte, je me passionne pour les technologies numériques depuis l’enfance. <strong>À 10 ans, j’apprenais les bases du C</strong> grâce à des ouvrages trouvés dans la bibliothèque paternelle. Après un parcours universitaire en histoire et une première immersion dans <strong>le langage Python</strong> via Udemy, j’ai choisi de me spécialiser dans le <strong>développement Web</strong> en suivant le parcours diplômant <strong>d’OpenClassrooms</strong>, avant d’obtenir le titre de <strong>concepteur-développeur d’applications</strong> chez SIELI. J’ai également approfondi mes compétences en <strong>gestion de projet en IA</strong> avec 26 Academy.<br />
-                            Au fil des années, j’ai mené des projets variés : des applications console comme un <strong>Jeu de Maths</strong> pour écoliers, des logiciels desktop comme <strong>MrBeat, une boîte à rythmes digitale</strong>, ou <strong>Galaxy, un jeu de course en 3D</strong>. J’ai aussi conçu de nombreuses <strong>applications Web et Web mobile</strong>, dont vous trouverez <a href='#portfolio'>un aperçu ici</a>.
-                            </p>
+                            {textProfile}
                             <div className='div-presentation-links'>
                                 <Link className='presentation-link' to="https://www.linkedin.com/in/rafikbensadi" target="_blank"
                                 rel="noopener noreferrer"><img className='list-icon' src={LinkedIn} alt='Icone LinkedIn'/>Consulter mon profil LinkedIn</Link>
