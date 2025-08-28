@@ -38,8 +38,8 @@ main {
         border: light-dark(1px solid rgba(0, 0, 0, 0.05), 1px solid rgba(255, 255, 255, 1));
         color: light-dark(var(--color4), rgba(255, 255, 255, 0.8));
         img {
-                -webkit-filter: light-dark(grayscale(85%), grayscale(1));
-                filter: light-dark(grayscale(85%), grayscale(1));
+                -webkit-filter: light-dark(grayscale(60%), grayscale(1));
+                filter: light-dark(grayscale(60%), grayscale(1));
             }
     }
 }
@@ -421,13 +421,6 @@ div.texte-avec-ligne-verticale {
     height: 60px;
     cursor: default;
     border-radius: 8px;
-    img {
-        margin-left: 12px;
-        -webkit-filter: grayscale(85%);
-        filter: grayscale(85%);
-        opacity: 1;
-        filter: alpha(opacity=100);
-    }
     animation-name: scrollLeft;
     animation-duration: 25s;
     animation-timing-function: linear;
@@ -436,8 +429,14 @@ div.texte-avec-ligne-verticale {
 
 .list-icon {
     width: 33px;
-    height: auto;
+    height: 33px;
+    object-fit: contain;
     margin-right: 12px;
+    margin-left: 12px;
+    -webkit-filter: grayscale(60%);
+    filter: grayscale(60%);
+    opacity: 1;
+    filter: alpha(opacity=100);
 }
 
 .div-citation {

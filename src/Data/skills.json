@@ -6,7 +6,7 @@
 			{
 				"id": "YRHc1s69m7pqQu8",
 				"name": "Culture numérique",
-				"picture": "Images/skills_icons/culture.png"
+				"picture": "Images/skills_icons/culture.svg"
 			},
 			{
 				"id": "3RpXZFylOA2DSRY",
@@ -36,17 +36,17 @@
 			{
 				"id": "32DkYoHGPqsqk2m",
 				"name": "Responsive Design",
-				"picture": "Images/skills_icons/responsive_design.png"
+				"picture": "Images/skills_icons/responsive_design.svg"
 			},
 			{
 				"id": "n5yJ7SsTigjBBQM",
 				"name": "Accessibilité",
-				"picture": "Images/skills_icons/accessibilité.png"
+				"picture": "Images/skills_icons/accessibilité.svg"
 			},
 			{
 				"id": "rdzi5Vr35CC8fsA",
 				"name": "SEO",
-				"picture": "Images/skills_icons/SEO.png"
+				"picture": "Images/skills_icons/seo.svg"
 			},
 			{
 				"id": "puw4BACwMJ3IRtI",
@@ -67,7 +67,7 @@
     		{
 				"id": "AMUCJkTNytFstnK",
 				"name": "React JS",
-				"picture": "Images/skills_icons/react.png"
+				"picture": "Images/skills_icons/react.svg"
 			},
 			{
 				"id": "J0DKWpCqxh6gH1x",
@@ -77,12 +77,12 @@
 			{
 				"id": "3nx524yR5XirpMZ",
 				"name": "TypeScript",
-				"picture": "Images/skills_icons/typescript.png"
+				"picture": "Images/skills_icons/typescript.svg"
 			},
 			{
 				"id": "igj5OIbHctAkVXD",
 				"name": "JavaScript",
-				"picture": "Images/skills_icons/javascript.png"
+				"picture": "Images/skills_icons/javascript.svg"
 			},
 			{
 				"id": "XtqgFKQZEdpi6bI",
@@ -153,7 +153,7 @@
 			{
 				"id": "BdkyKseDTTC9wAk",
 				"name": "Express JS",
-				"picture": "Images/skills_icons/express.png"
+				"picture": "Images/skills_icons/expressjs.svg"
 			},
 			{
 				"id": "Deog1aGiIsGZYzm",
@@ -163,7 +163,7 @@
 			{
 				"id": "iZcSZVb7iiWhZWN",
 				"name": "Postman",
-				"picture": "Images/skills_icons/postman.png"
+				"picture": "Images/skills_icons/postman.svg"
 			},
 			{
 				"id": "bMFUCMMGJ1Yz00s",
@@ -178,7 +178,7 @@
 			{
 				"id": "paRIh6cf45HB9Jw",
 				"name": "NEXT JS",
-				"picture": "Images/skills_icons/nextjs.png"
+				"picture": "Images/skills_icons/nextjs.svg"
 			}
   		]
 	},
@@ -189,7 +189,7 @@
     		{
 				"id": "qWRMQpScuAwGSEs",
 				"name": "Architecture Logicielle",
-				"picture": "Images/skills_icons/architecture_logicielle.png"
+				"picture": "Images/skills_icons/architecture_logicielle.svg"
 			},
 			{
 				"id": "UIglTwdYcgbSAez",
@@ -224,22 +224,27 @@
 			{
 				"id": "MjOXFGA769Q5Kp6",
 				"name": "TeamGantt",
-				"picture": "Images/skills_icons/teamgantt.png"
+				"picture": "Images/skills_icons/teamgantt.svg"
 			},
 			{
 				"id": "xV8ttTQZiGCCjG5",
 				"name": "Green IT",
-				"picture": "Images/skills_icons/greenit.png"
+				"picture": "Images/skills_icons/greenit.svg"
 			},
 			{
 				"id": "CoNVNuZ7orEkULc",
 				"name": "Méthodologies Agiles",
-				"picture": "Images/skills_icons/agile.png"
+				"picture": "Images/skills_icons/agile.svg"
 			},
 			{
 				"id": "pRo0PbuUpaAtgRd",
 				"name": "Méthode en Cascade",
 				"picture": "Images/skills_icons/waterfall.webp"
+			},
+			{
+				"id": "GEdUqjgfLlyvK3l",
+				"name": "Méthode Kanban",
+				"picture": "Images/skills_icons/kanban.svg"
 			}
   		]
 	},
@@ -250,7 +255,7 @@
     		{
 				"id": "H6Y3Aha26s1lFIV",
 				"name": "Git",
-				"picture": "Images/skills_icons/git.png"
+				"picture": "Images/skills_icons/git.svg"
 			},
 			{
 				"id": "ifE3oSugYMcxuu8",
@@ -264,13 +269,18 @@
 			},
 			{
 				"id": "xT1sZd3eXEkTOHO",
-				"name": "Bash / PowerShell",
-				"picture": "Images/skills_icons/console.png"
+				"name": "Bash",
+				"picture": "Images/skills_icons/bash.svg"
+			},
+			{
+				"id": "sedgIO1MTvqYob7",
+				"name": "PowerShell",
+				"picture": "Images/skills_icons/powershell.svg"
 			},
 			{
 				"id": "xs0oUkCYSP8LYNC",
 				"name": "Jest",
-				"picture": "Images/skills_icons/jest.png"
+				"picture": "Images/skills_icons/jest.svg"
 			},
 			{
 				"id": "Pic0nPiihjeuIlS",
@@ -285,7 +295,7 @@
 			{
 				"id": "Mg2hO0OqsuBMc4q",
 				"name": "Linux",
-				"picture": "Images/skills_icons/linux.png"
+				"picture": "Images/skills_icons/linux.svg"
 			},
 			{
 				"id": "84r7X1bDPbP6v9n",
@@ -295,7 +305,7 @@
 			{
 				"id": "vgoju3KiOe3wi8X",
 				"name": "cPanel",
-				"picture": "Images/skills_icons/cpanel.png"
+				"picture": "Images/skills_icons/cpanel.svg"
 			},
 			{
 				"id": "bdlQaK7jSabO9Bc",
@@ -320,18 +330,18 @@
 		"skills": [
     		{
 				"id": "NoA90dBe85Te83k",
-				"name": "JWT (JSON Web Token)",
-				"picture": "Images/skills_icons/jwt.png"
+				"name": "JSON Web Token",
+				"picture": "Images/skills_icons/jwt.svg"
 			},
 			{
 				"id": "NyAByJN6xv5Xqmd",
 				"name": "Cookie Parser",
-				"picture": "Images/skills_icons/cookie_parser.png"
+				"picture": "Images/skills_icons/cookie_parser.svg"
 			},
 			{
 				"id": "wIYOwL9whNX07sV",
 				"name": "Bcrypt",
-				"picture": "Images/skills_icons/bcrypt.png"
+				"picture": "Images/skills_icons/bcrypt.svg"
 			},
 			{
 				"id": "MINAJeP6BSvPq4n",
@@ -341,22 +351,22 @@
 			{
 				"id": "L54w5MKrK15ndJF",
 				"name": "Express Rate Limit",
-				"picture": "Images/skills_icons/express_rate_limit.png"
+				"picture": "Images/skills_icons/express_rate_limit.svg"
 			},
 			{
 				"id": "g7dUWh9aApbgZlO",
 				"name": "Bonnes Pratiques de Sécurité",
-				"picture": "Images/skills_icons/cyber-securite.png"
+				"picture": "Images/skills_icons/cyber-securite.svg"
 			},
 			{
 				"id": "pqePy2e4NQyWO1W",
 				"name": "HTTPS / TLS",
-				"picture": "Images/skills_icons/https.png"
+				"picture": "Images/skills_icons/https.svg"
 			},
 			{
 				"id": "q5kwsZYsPV6Qvjz",
 				"name": "Dotenv",
-				"picture": "Images/skills_icons/dotenv.png"
+				"picture": "Images/skills_icons/dotenv.svg"
 			},
 			{
 				"id": "FWmhPziiXaU81XC",
@@ -371,7 +381,7 @@
 			{
 				"id": "D0bM7XsBTmOM1T0",
 				"name": "ORM Sécurisé",
-				"picture": "Images/skills_icons/orm.png"
+				"picture": "Images/skills_icons/orm.svg"
 			},
 			{
 				"id": "THrmmXiJpLFJL7i",
@@ -386,7 +396,7 @@
 			{
 				"id": "Df0BvcI1xwFBqsa",
 				"name": "OWASP Top 10",
-				"picture": "Images/skills_icons/owasp_top_10.png"
+				"picture": "Images/skills_icons/owasp_top_10.svg"
 			},
 			{
 				"id": "ULg1VpATpFY4IYb",
@@ -407,7 +417,7 @@
 			{
 				"id": "oDPSN3Ic68h816C",
 				"name": "SQL",
-				"picture": "Images/skills_icons/sql.png"
+				"picture": "Images/skills_icons/sql.svg"
 			},
 			{
 				"id": "kEjezf3XUnxqbdt",
@@ -427,7 +437,7 @@
 			{
 				"id": "q7W4viIJzqDvN0o",
 				"name": "Ubuntu Distribution",
-				"picture": "Images/skills_icons/ubuntu.png"
+				"picture": "Images/skills_icons/ubuntu.svg"
 			},
 			{
 				"id": "Oc1DdyfFNRh6AJ5",
@@ -437,7 +447,7 @@
 			{
 				"id": "aJtVlvQ7Bf0Ep6B",
 				"name": "PyCharm",
-				"picture": "Images/skills_icons/pycharm.png"
+				"picture": "Images/skills_icons/pycharm.svg"
 			},
 			{
 				"id": "oa42cQk9afzcNRA",
