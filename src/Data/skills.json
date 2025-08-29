@@ -262,6 +262,11 @@
 				"picture": "Images/skills_icons/miro.png"
 			},
 			{
+				"id": "XUOhQfdLmQukc6U",
+				"name": "Gamma AI",
+				"picture": "Images/skills_icons/gamma.svg"
+			},
+			{
 				"id": "zZqDKxjFZBieDG1",
 				"name": "Slack",
 				"picture": "Images/skills_icons/slack.svg"
