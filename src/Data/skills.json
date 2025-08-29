@@ -70,6 +70,11 @@
 				"picture": "Images/skills_icons/react.svg"
 			},
 			{
+				"id": "7Kvy2GDE5oSZ6TZ",
+				"name": "React Router",
+				"picture": "Images/skills_icons/reactrouter.svg"
+			},
+			{
 				"id": "J0DKWpCqxh6gH1x",
 				"name": "Redux",
 				"picture": "Images/skills_icons/redux.svg"
@@ -118,6 +123,31 @@
 				"id": "UuyXEHaNXpVoHLO",
 				"name": "SASS",
 				"picture": "Images/skills_icons/sass.svg"
+			},
+			{
+				"id": "POCiUyeDSczw5Bs",
+				"name": "Format JSON",
+				"picture": "Images/skills_icons/json.svg"
+			},
+			{
+				"id": "p5Hs6qHydjGBy7o",
+				"name": "Scalable Vector Graphics (SVG)",
+				"picture": "Images/skills_icons/svg.svg"
+			},
+			{
+				"id": "QzWSvaHQQSZ4Rz8",
+				"name": "Markdown",
+				"picture": "Images/skills_icons/markdown.svg"
+			},
+			{
+				"id": "8XQLLkmfN0JPJMx",
+				"name": "Prettier",
+				"picture": "Images/skills_icons/prettier.svg"
+			},
+			{
+				"id": "1EvXM2TYGh6NXMX",
+				"name": "ESLint",
+				"picture": "Images/skills_icons/eslint.svg"
 			}
   		]
 	},
@@ -125,15 +155,45 @@
 		"id": "epa2yagO12zkByS",
 		"title": "Backend",
 		"skills": [
+			{
+				"id": "kEjezf3XUnxqbdt",
+				"name": "SQLite",
+				"picture": "Images/skills_icons/sqlite.svg"
+			},
     		{
 				"id": "nPEbvD3oAFHPTG0",
 				"name": "MySQL",
 				"picture": "Images/skills_icons/mysql.svg"
 			},
 			{
+				"id": "RPMeR336I76T9jA",
+				"name": "PostgreSQL",
+				"picture": "Images/skills_icons/postgresql.svg"
+			},
+			{
 				"id": "eM1Qr8lGw8AYEIt",
 				"name": "Sequelize",
 				"picture": "Images/skills_icons/sequelize.svg"
+			},
+			{
+				"id": "iRvCCPihU2ThjT3",
+				"name": "Stripe",
+				"picture": "Images/skills_icons/stripe.svg"
+			},
+			{
+				"id": "bMFUCMMGJ1Yz00s",
+				"name": "Nodemailer",
+				"picture": "Images/skills_icons/nodemailer.png"
+			},
+			{
+				"id": "crVtTnq1xLhQUow",
+				"name": "Playwright",
+				"picture": "Images/skills_icons/playwright.svg"
+			},
+			{
+				"id": "8DNmTKPHhzE00xw",
+				"name": "Tensorflow",
+				"picture": "Images/skills_icons/tensorflow.svg"
 			},
 			{
 				"id": "3h9fP9Ql2t4bz93",
@@ -144,6 +204,11 @@
 				"id": "3UGAEAnNDndkE4M",
 				"name": "Mongoose",
 				"picture": "Images/skills_icons/mongoose.svg"
+			},
+			{
+				"id": "paRIh6cf45HB9Jw",
+				"name": "NEXT JS",
+				"picture": "Images/skills_icons/nextjs.svg"
 			},
 			{
 				"id": "w8U8D7Mtx0VvS8M",
@@ -164,21 +229,6 @@
 				"id": "iZcSZVb7iiWhZWN",
 				"name": "Postman",
 				"picture": "Images/skills_icons/postman.svg"
-			},
-			{
-				"id": "bMFUCMMGJ1Yz00s",
-				"name": "Nodemailer",
-				"picture": "Images/skills_icons/nodemailer.png"
-			},
-			{
-				"id": "crVtTnq1xLhQUow",
-				"name": "Playwright",
-				"picture": "Images/skills_icons/playwright.svg"
-			},
-			{
-				"id": "paRIh6cf45HB9Jw",
-				"name": "NEXT JS",
-				"picture": "Images/skills_icons/nextjs.svg"
 			}
   		]
 	},
@@ -222,9 +272,29 @@
 				"picture": "Images/skills_icons/discord.svg"
 			},
 			{
+				"id": "gViXLaCNI0wJJ3r",
+				"name": "Zoom",
+				"picture": "Images/skills_icons/zoom.svg"
+			},
+			{
+				"id": "c9hGjHahhaBdPMF",
+				"name": "Microsoft Office",
+				"picture": "Images/skills_icons/msoffice.svg"
+			},
+			{
+				"id": "MshEuShm6dkOSoz",
+				"name": "LibreOffice",
+				"picture": "Images/skills_icons/libreoffice.svg"
+			},
+			{
 				"id": "MjOXFGA769Q5Kp6",
 				"name": "TeamGantt",
 				"picture": "Images/skills_icons/teamgantt.svg"
+			},
+			{
+				"id": "iWWRPGSFwhluPr8",
+				"name": "Google Drive",
+				"picture": "Images/skills_icons/drive.svg"
 			},
 			{
 				"id": "xV8ttTQZiGCCjG5",
@@ -268,16 +338,6 @@
 				"picture": "Images/skills_icons/docker.svg"
 			},
 			{
-				"id": "xT1sZd3eXEkTOHO",
-				"name": "Bash",
-				"picture": "Images/skills_icons/bash.svg"
-			},
-			{
-				"id": "sedgIO1MTvqYob7",
-				"name": "PowerShell",
-				"picture": "Images/skills_icons/powershell.svg"
-			},
-			{
 				"id": "xs0oUkCYSP8LYNC",
 				"name": "Jest",
 				"picture": "Images/skills_icons/jest.svg"
@@ -296,6 +356,21 @@
 				"id": "Mg2hO0OqsuBMc4q",
 				"name": "Linux",
 				"picture": "Images/skills_icons/linux.svg"
+			},
+			{
+				"id": "jkeJBrypjP8ZRy9",
+				"name": "Vim",
+				"picture": "Images/skills_icons/vim.svg"
+			},
+			{
+				"id": "xT1sZd3eXEkTOHO",
+				"name": "Bash",
+				"picture": "Images/skills_icons/bash.svg"
+			},
+			{
+				"id": "sedgIO1MTvqYob7",
+				"name": "PowerShell",
+				"picture": "Images/skills_icons/powershell.svg"
 			},
 			{
 				"id": "84r7X1bDPbP6v9n",
@@ -420,11 +495,6 @@
 				"picture": "Images/skills_icons/sql.svg"
 			},
 			{
-				"id": "kEjezf3XUnxqbdt",
-				"name": "SQLite",
-				"picture": "Images/skills_icons/sqlite.svg"
-			},
-			{
 				"id": "2mkEsxPr2qoczcI",
 				"name": "Langage C",
 				"picture": "Images/skills_icons/c.svg"
@@ -435,8 +505,18 @@
 				"picture": "Images/skills_icons/chatgpt.svg"
 			},
 			{
+				"id": "tO8BrK9U4XzAERd",
+				"name": "Claude AI",
+				"picture": "Images/skills_icons/claude.svg"
+			},
+			{
+				"id": "tIim96tZoqnQ36j",
+				"name": "Github Copilot",
+				"picture": "Images/skills_icons/copilot.svg"
+			},
+			{
 				"id": "q7W4viIJzqDvN0o",
-				"name": "Ubuntu Distribution",
+				"name": "Ubuntu Linux",
 				"picture": "Images/skills_icons/ubuntu.svg"
 			},
 			{
