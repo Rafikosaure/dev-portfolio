@@ -64,7 +64,6 @@ function Home() {
                                 <a className='presentation-link' target='_blank' rel='noopener noreferrer' href={CV_File}><img className='list-icon' src={CV_Icon} alt='Icone CV'/>Consulter mon Curriculum Vitae (PDF)</a>
                                 <Link className='presentation-link' to="https://bold.pro/my/rafikbensadi" target="_blank"><img className='list-icon' src={CV_OnlineIcon} alt="Icone CV en ligne" />Consulter mon CV détaillé en ligne</Link>
                             </div>
-                            
                         </div>
                     </div>
                 </div>

@@ -35,10 +35,9 @@ function Footer() {
                                             Besoin de discuter de votre projet
                                             et obtenir l'avis d'un professionnel ?
                                             <br />
-                                            <br />
-                                            N'hésitez pas à me contacter par {' '}
+                                            N'hésitez pas à {' '}
                                             <a href="mailto:rafikbensadi@live.fr?subject=Contact%20depuis%20rafikbensadi.com">
-                                                email
+                                                me contacter par email
                                             </a>{' '}
                                         </p>
                                     </div>

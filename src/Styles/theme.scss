@@ -94,6 +94,9 @@ div.cover-contact {
     top: 20px;
     left: 10px;
     padding-left: 8px;
+    p {
+        line-height: 1;
+    }
 }
 
 .cover-contact-bar-color {
@@ -309,15 +312,22 @@ div.col-contenu {
 }
 
 div.texte-avec-ligne-verticale p {
-    margin-top: 0px;
+    padding-top: 0;
+    margin: 0;
+    line-height: 1.5;
     color: light-dark(var(--color4), var(--color5));
+    a {
+        margin: 0;
+        padding: 0;
+    }
 }
 
 div.texte-avec-ligne-verticale {
-    padding-left: 8px;
-    height: 50px;
+    padding: 0 0 0 8px;
+    height: fit-content;
     display: inline-block;
     text-align: justify;
+    overflow: visible;
     .portfolio-header-title {
         color: var(--color5);
     }
@@ -340,6 +350,10 @@ div.texte-avec-ligne-verticale {
 .div-presentation-links {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 20px;
+    a {
+        margin-bottom: 5px;
+    }
 }
 
 .presentation-link {
@@ -348,6 +362,7 @@ div.texte-avec-ligne-verticale {
     align-items: center;
     margin-right: 60px;
     margin-bottom: 15px;
+    width: 350px;
 }
 
 .div-competences-main-title {
@@ -370,7 +385,6 @@ div.texte-avec-ligne-verticale {
     width: 90%;
     max-width: 90%;
     height: 60px;
-    // background-color: lightgreen;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
@@ -697,7 +711,7 @@ img.portfolio {
     position: absolute;
     z-index: 100;
     cursor: pointer;
-    background: url('../Images/moon.svg') no-repeat center/cover;
+    background: url('../Images/moon.png') no-repeat center/cover;
 }
 
 .switch-mode-dark {
@@ -705,7 +719,7 @@ img.portfolio {
     position: absolute;
     z-index: 100;
     cursor: pointer;
-    background: url('../Images/sun.svg') no-repeat center/cover;
+    background: url('../Images/sun.png') no-repeat center/cover;
 }
 
 .switch-home {
@@ -747,7 +761,7 @@ img.portfolio {
     }
 
     .section-blanche {
-        padding-bottom: 220px;
+        padding-bottom: 60px;
     }
 
     div.section-grise1, div.section-grise1-dark {
@@ -803,6 +817,7 @@ img.portfolio {
         margin-right: 0;
         margin-top: 10px;
         margin-bottom: 20px;
+        width: fit-content;
     }
 
     .projects-fontsize {
