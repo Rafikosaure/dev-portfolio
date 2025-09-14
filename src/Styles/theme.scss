@@ -1,4 +1,79 @@
+// EFFETS CSS
+.reveal {
+    opacity: 0;
+    transform: translateY(-60px);
+}
 
+.reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 2.5s;
+}
+
+.reveal-text {
+    opacity: 0;
+    transform: translateX(70px);
+}
+
+.reveal-text-visible {
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1s;
+}
+
+.reveal-picture {
+    opacity: 0;
+    transform: translateX(-70px);
+}
+
+.reveal-picture-visible {
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1s;
+}
+
+
+// ANIMATIONS
+@keyframes scrollLeft {
+    to {
+        left: -204px;
+    }
+}
+
+
+// SWITCH LIGHT/DARK MODE
+.switch-mode {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 100;
+    cursor: pointer;
+    background: url('../Images/moon.png') no-repeat center/cover;
+}
+
+.switch-mode-dark {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 100;
+    cursor: pointer;
+    background: url('../Images/sun.png') no-repeat center/cover;
+}
+
+.switch-home {
+    width: 40px;
+    height: 40px;
+    top: 18px;
+    right: 26px;
+}
+
+.switch-portfolio {
+    width: 40px;
+    height: 40px;
+    top: 25px;
+    right: 240px;
+}
+
+
+// THEME PRINCIPAL
 * {
     box-sizing: border-box;
 }
@@ -89,7 +164,6 @@ header.cover p {
 }
 
 div.cover-contact {
-    /* background-color: #FF000080; */
     position: absolute;
     top: 20px;
     left: 10px;
@@ -169,15 +243,10 @@ a.contact-button-portfolio {
 }
 
 .section-blanche {
-    // padding-bottom: 100px;
     padding-bottom: 100px;
-
-    // margin-bottom: 100px;
-    // overflow: visible;
 }
 
 div.section-grise1, div.section-grise1-dark {
-    // background: url(../Images/triangle2white.svg) no-repeat center bottom -1px/100%;
     padding-bottom: 120px;
     position: relative;
     z-index: 1;
@@ -206,19 +275,7 @@ div.section-grise2, div.section-grise2-dark {
     position: relative;
     padding-top: 120px;
     padding-bottom: 120px;
-    // background: url(../Images/triangle1white.svg) no-repeat center top/100%;
-    // background-color: var(--color2);
 }
-
-// div.section-grise2 {
-//     background-color: var(--color2);
-// }
-
-// div.section-grise2-dark {
-    // background-color: var(--color3);
-    // background: url(../Images/triangle1black.svg) no-repeat center top/100%;
-    // padding-top: 120px;
-// }
 
 .section-grise2-overlay, .section-grise2-overlay-dark {
     position: absolute;
@@ -288,7 +345,6 @@ div.separateur {
 
 div.section-grise1 p, div.section-grise1-dark p {
     font-size: 22px;
-    // color: #656565;
     text-align: center;
     max-width: 450px;
     margin-left: auto;
@@ -542,7 +598,8 @@ div.frame img {
     width: 100px;
 }
 
-/* PORTFOLIO */
+
+// PORTFOLIO
 .portfolio-header {
     height: 90px;
     background: url(../Images/header.webp) no-repeat center/cover;
@@ -625,7 +682,6 @@ img.portfolio {
 }
 
 .section-grise-project, .section-grise-project-dark {
-    // padding-bottom: 120px;
     position: relative;
     z-index: 1;
 }
@@ -665,81 +721,42 @@ img.portfolio {
     padding-top: 60px;
 }
 
-/* Effets CSS */
-.reveal {
-    opacity: 0;
-    transform: translateY(-60px);
-}
 
-.reveal-visible {
-    opacity: 1;
-    transform: translateY(0);
-    transition: 2.5s;
-}
-
-.reveal-text {
-    opacity: 0;
-    transform: translateX(70px);
-}
-
-.reveal-text-visible {
-    opacity: 1;
-    transform: translateX(0);
-    transition: 1s;
-}
-
-.reveal-picture {
-    opacity: 0;
-    transform: translateX(-70px);
-}
-
-.reveal-picture-visible {
-    opacity: 1;
-    transform: translateX(0);
-    transition: 1s;
-}
-
-/* Animations */
-@keyframes scrollLeft {
-    to {
-        left: -204px;
+// RESPONSIVE DESIGN : MOBILE
+@media only screen and (max-width: 767px) {   
+    .reveal {
+        opacity: 0;
+        transform: none;
     }
-}
 
-/* Switch light/dark mode */
-.switch-mode {
-    border-radius: 50%;
-    position: absolute;
-    z-index: 100;
-    cursor: pointer;
-    background: url('../Images/moon.png') no-repeat center/cover;
-}
+    .reveal-visible {
+        opacity: 1;
+        transform: none;
+        transition: 2.5s;
+    }
 
-.switch-mode-dark {
-    border-radius: 50%;
-    position: absolute;
-    z-index: 100;
-    cursor: pointer;
-    background: url('../Images/sun.png') no-repeat center/cover;
-}
+    .reveal-text {
+        opacity: 0;
+        transform: none;
+    }
 
-.switch-home {
-    width: 40px;
-    height: 40px;
-    top: 18px;
-    right: 26px;
-}
+    .reveal-text-visible {
+        opacity: 1;
+        transform: none;
+        transition: 1s;
+    }
 
-.switch-portfolio {
-    width: 40px;
-    height: 40px;
-    top: 25px;
-    right: 240px;
-}
+    .reveal-picture {
+        opacity: 0;
+        transform: none;
+    }
 
-
-/* RESPONSIVE DESIGN : MOBILE */
-@media only screen and (max-width: 767px) {
+    .reveal-picture-visible {
+        opacity: 1;
+        transform: none;
+        transition: 1s;
+    }
+    
     img.cover-profile {
         height: 90px;
         margin-top: 75px;
@@ -879,14 +896,12 @@ img.portfolio {
     }
     
     .iframe {
-        // height: 390px;
         height: fit-content;
-        // padding-top: 40px;
     }
 
     div.frame {
-        margin: 0px 0px 50px 0px;
-        padding: 0px 0px;
+        margin: 0 0 50px 0;
+        padding: 0 0;
         box-shadow: none;
     }
     
@@ -894,40 +909,11 @@ img.portfolio {
         width: 70px;
     }
 
-    .reveal {
-        opacity: 0;
-        transform: none;
-    }
-
-    .reveal-visible {
-        opacity: 1;
-        transform: none;
-        transition: 2.5s;
-    }
-
-    .reveal-text {
-        opacity: 0;
-        transform: none;
-    }
-
-    .reveal-text-visible {
-        opacity: 1;
-        transform: none;
-        transition: 1s;
-    }
-
-    .reveal-picture {
-        opacity: 0;
-        transform: none;
-    }
-
-    .reveal-picture-visible {
-        opacity: 1;
-        transform: none;
-        transition: 1s;
-    }
     
-    /* PORTFOLIO - MOBILE */
+    // PORTFOLIO - MOBILE
+    .switch-portfolio {
+        right: 150px;
+    }
     a.portfolio-back {
         font-size: 14px;
     }
@@ -975,9 +961,5 @@ img.portfolio {
 
     .section-grise-project-overlay, .section-grise-project-overlay-dark {
         clip-path: polygon(100% 0, 100% 70%, 0 100%, 0 0%, 0 0);
-    }
-
-    .switch-portfolio {
-        right: 150px;
     }
 }
