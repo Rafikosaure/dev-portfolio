@@ -406,12 +406,6 @@ div.texte-avec-ligne-verticale {
     margin-right: auto;
 }
 
-@keyframes scrollLeft {
-    to {
-        left: -204px;
-    }
-}
-
 .competences-title {
     text-align: center;    
     font-style: italic;
@@ -703,6 +697,13 @@ img.portfolio {
     opacity: 1;
     transform: translateX(0);
     transition: 1s;
+}
+
+/* Animations */
+@keyframes scrollLeft {
+    to {
+        left: -204px;
+    }
 }
 
 /* Switch light/dark mode */
