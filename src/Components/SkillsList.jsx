@@ -25,7 +25,7 @@ function SkillsList({ data, animDirection }) {
                 {skills.map((item, index) => (
                     <span 
                     className={`list-item-competence`} 
-                    style={{ animationDelay: `calc(25s / ${skills.length} * (${skills.length} - ${index + 1}) * -1)`, 
+                    style={{ animationDelay: `calc(25s / ${skills.length} * (${skills.length} - ${index + 1 }) * -1)`, 
                     animationDirection: `${animDirection}`,
                     animationPlayState: isInteracting ? 'paused' : 'running' }} 
                     key={item.id}

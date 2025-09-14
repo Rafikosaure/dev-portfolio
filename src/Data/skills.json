@@ -116,7 +116,7 @@
 			},
 			{
 				"id": "bWLTxKQg7TMc2by",
-				"name": "Tailwind",
+				"name": "Tailwind CSS",
 				"picture": "Images/skills_icons/tailwind.svg"
 			},
 			{
@@ -221,6 +221,11 @@
 				"picture": "Images/skills_icons/expressjs.svg"
 			},
 			{
+				"id": "2mUjx4woW653nGo",
+				"name": "Django",
+				"picture": "Images/skills_icons/django.png"
+			},
+			{
 				"id": "Deog1aGiIsGZYzm",
 				"name": "API REST",
 				"picture": "Images/skills_icons/api.png"
@@ -265,6 +270,46 @@
 				"id": "XUOhQfdLmQukc6U",
 				"name": "Gamma AI",
 				"picture": "Images/skills_icons/gamma.svg"
+			},
+			{
+				"id": "4b93qM6c41sxfFa",
+				"name": "Napkin AI",
+				"picture": "Images/skills_icons/napkinai.png"
+			},
+			{
+				"id": "ynzz0YbxpweA0B2",
+				"name": "HeyGen AI",
+				"picture": "Images/skills_icons/heygenai.png"
+			},
+			{
+				"id": "MNHiyj8DImxkNNw",
+				"name": "Make",
+				"picture": "Images/skills_icons/make.png"
+			},
+			{
+				"id": "BXSjh1oJZSPwzEV",
+				"name": "Mozilla Thunderbird",
+				"picture": "Images/skills_icons/thunderbird.png"
+			},
+			{
+				"id": "2qzMWxLSacdcMkF",
+				"name": "Google Calendar",
+				"picture": "Images/skills_icons/gcalendar.png"
+			},
+			{
+				"id": "lNR7sXLnPu0JvtA",
+				"name": "Microsoft Teams",
+				"picture": "Images/skills_icons/msteams.png"
+			},
+			{
+				"id": "qjJZSwf486wlSK1",
+				"name": "Google Meet",
+				"picture": "Images/skills_icons/gmeet.png"
+			},
+			{
+				"id": "u2W18NDxqAINGNj",
+				"name": "WhatsApp",
+				"picture": "Images/skills_icons/whatsapp.svg"
 			},
 			{
 				"id": "zZqDKxjFZBieDG1",
@@ -319,7 +364,7 @@
 			{
 				"id": "GEdUqjgfLlyvK3l",
 				"name": "Méthode Kanban",
-				"picture": "Images/skills_icons/kanban.svg"
+				"picture": "Images/skills_icons/kanban.png"
 			}
   		]
 	},
