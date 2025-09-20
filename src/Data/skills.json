@@ -353,7 +353,7 @@
 			},
 			{
 				"id": "CoNVNuZ7orEkULc",
-				"name": "Méthodologies Agiles",
+				"name": "Méthodes Agiles",
 				"picture": "Images/skills_icons/agile.svg"
 			},
 			{
@@ -480,7 +480,7 @@
 			},
 			{
 				"id": "g7dUWh9aApbgZlO",
-				"name": "Bonnes Pratiques de Codage",
+				"name": "Sécurité Applicative",
 				"picture": "Images/skills_icons/cyber-securite.svg"
 			},
 			{
@@ -510,7 +510,7 @@
 			},
 			{
 				"id": "RwxT5nQdCUSGO2k",
-				"name": "GitHub Actions (CI/CD Sécurisé)",
+				"name": "CI/CD Sécurisé",
 				"picture": "Images/skills_icons/github_actions.svg"
 			},
 			{
