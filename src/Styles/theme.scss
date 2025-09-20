@@ -35,9 +35,8 @@
 
 // ANIMATIONS
 @keyframes scrollLeft {
-    to {
-        left: -204px;
-    }
+    from { transform: translate3d(0, 0, 0); }
+    to   { transform: translate3d(-50%, 0, 0); } // -50% = la moitié (liste 1)
 }
 
 
@@ -441,10 +440,7 @@ div.texte-avec-ligne-verticale {
     width: 90%;
     max-width: 90%;
     height: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 80px;
+    margin: 0 auto 80px auto;
     overflow: hidden;
     mask-image: linear-gradient(
         to right,
@@ -456,51 +452,43 @@ div.texte-avec-ligne-verticale {
 }
 
 .competences-list-wrapper {
-    position: relative;
+    --duration: 25s;
+    display: flex;
+    gap: 20px; // espacement régulier voulu
     height: 60px;
-    margin-left: auto;
-    margin-right: auto;
+    width: max-content; // s’ajuste à la largeur totale
+    animation: scrollLeft var(--duration, 25s) linear infinite;
+    will-change: transform; // aide à la fluidité
 }
 
 .competences-title {
-    text-align: center;    
+    text-align: center;
     font-style: italic;
     font-size: 20px;
     height: 55px;
-    margin-top: 40px;
-    margin-bottom: 0;
+    margin: 40px 0 0 0;
 }
 
 .list-item-competence {
-    position: absolute;
-    left: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(0, 0, 0, 0.05);
-    font-size: 16px;
-    padding-right: 18px;
-    list-style-type: none;
+    flex: 0 0 auto;
+    width: 200px;
+    height: 60px;
     display: flex;
     align-items: center;
-    width: 204px;
-    height: 60px;
-    cursor: default;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.05);
     border-radius: 8px;
-    animation-name: scrollLeft;
-    animation-duration: 25s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    font-size: 16px;
+    cursor: default;
+    padding-right: 18px;
 }
 
 .list-icon {
     width: 33px;
     height: 33px;
     object-fit: contain;
-    margin-right: 12px;
-    margin-left: 12px;
-    -webkit-filter: grayscale(60%);
+    margin: 0 12px;
     filter: grayscale(60%);
-    opacity: 1;
-    filter: alpha(opacity=100);
 }
 
 .div-citation {
@@ -849,13 +837,11 @@ img.portfolio {
 
     .competences-title {
         margin-top: 30px;
-        margin-bottom: 0;
     }
 
     .competences-main {
         transform: scale(90%, 78%);
         margin-bottom: 50px;
-        overflow: hidden;
         mask-image: linear-gradient(
             to right,
             rgba(0, 0, 0, 0),
@@ -872,10 +858,6 @@ img.portfolio {
 
     .unordered-list-competences {
         margin-bottom: 40px;
-    }
-
-    .list-item-competence {
-        font-size: 16px;
     }
 
     .list-icon {
