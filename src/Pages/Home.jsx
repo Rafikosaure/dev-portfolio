@@ -10,6 +10,7 @@ import projects from '../Data/projects.json'
 import skills from '../Data/skills.json'
 import SkillsList from '../Components/SkillsList'
 import textProfile from '../Data/profileText'
+import { MARQUEE_SPEED_PX_PER_SEC } from '../Config/marqueeConfig'
 import { useTypingEffect } from '../Hooks/Typing-effect'
 import { Link } from 'react-router-dom'
 import { useInView } from 'react-intersection-observer'
@@ -80,13 +81,13 @@ function Home() {
 
                     <h2 className='div-competences-main-title'>Mes Compétences</h2>
 
-                    <SkillsList data={skills[0]} animDirection='reverse' />
-                    <SkillsList data={skills[1]} animDirection='normal' />
-                    <SkillsList data={skills[2]} animDirection='reverse' />
-                    <SkillsList data={skills[3]} animDirection='normal' />
-                    <SkillsList data={skills[4]} animDirection='reverse' />
-                    <SkillsList data={skills[5]} animDirection='normal' />
-                    <SkillsList data={skills[6]} animDirection='reverse' />
+                    <SkillsList data={skills[0]} animDirection='reverse' speedPxPerSec={MARQUEE_SPEED_PX_PER_SEC} />
+                    <SkillsList data={skills[1]} animDirection='normal' speedPxPerSec={MARQUEE_SPEED_PX_PER_SEC} />
+                    <SkillsList data={skills[2]} animDirection='reverse' speedPxPerSec={MARQUEE_SPEED_PX_PER_SEC} />
+                    <SkillsList data={skills[3]} animDirection='normal' speedPxPerSec={MARQUEE_SPEED_PX_PER_SEC} />
+                    <SkillsList data={skills[4]} animDirection='reverse' speedPxPerSec={MARQUEE_SPEED_PX_PER_SEC} />
+                    <SkillsList data={skills[5]} animDirection='normal' speedPxPerSec={MARQUEE_SPEED_PX_PER_SEC} />
+                    <SkillsList data={skills[6]} animDirection='reverse' speedPxPerSec={MARQUEE_SPEED_PX_PER_SEC} />
                 </div>
                 
                 {/* SECTION GRISE 3 */}
