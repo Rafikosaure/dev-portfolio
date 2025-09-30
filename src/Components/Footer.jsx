@@ -31,10 +31,11 @@ function Footer() {
                                         className={`texte-avec-ligne-verticale ligne-verticale-color${colorElementMode}`}
                                         style={{ marginLeft: 20 }}
                                     >
-                                        <p>
+                                        <p className='texte-avec-ligne-verticale-footer-p'>
                                             Besoin de discuter de votre projet
                                             et obtenir l'avis d'un professionnel ?
-                                            <br />
+                                        </p>
+                                        <p className='texte-avec-ligne-verticale-footer-p'>
                                             N'hésitez pas à {' '}
                                             <a href="mailto:rafikbensadi@live.fr?subject=Contact%20depuis%20rafikbensadi.com">
                                                 me contacter par email

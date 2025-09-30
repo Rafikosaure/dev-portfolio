@@ -365,25 +365,27 @@ div.col-contenu {
     float: right;
 }
 
-div.texte-avec-ligne-verticale p {
-    padding-top: 0;
-    margin: 0;
-    line-height: 1.5;
-    color: light-dark(var(--color4), var(--color5));
-    a {
-        margin: 0;
-        padding: 0;
-    }
-}
-
 div.texte-avec-ligne-verticale {
     padding: 0 0 0 8px;
     height: fit-content;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     text-align: justify;
-    overflow: visible;
+    gap: 14px;
     .portfolio-header-title {
         color: var(--color5);
+    }
+}
+
+.texte-avec-ligne-verticale-footer-p {
+    color: light-dark(var(--color4), var(--color5));
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    a {
+        margin: 0;
+        padding: 0;
     }
 }
 
@@ -399,6 +401,8 @@ div.texte-avec-ligne-verticale {
     font-size: 18px;
     line-height: 30px;
     text-align: justify;
+    margin: 0;
+    padding: 0;
 }
 
 .div-presentation-links {
