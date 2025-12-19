@@ -136,6 +136,8 @@ img.cover-profile {
     left: 50%;
     margin-left: -50px;
     margin-top: 50px;
+    outline: 2px solid var(--color2);
+    border-radius: 50%;
 }
 
 h1 {
@@ -352,7 +354,7 @@ div.section-grise1 p, div.section-grise1-dark p {
 img.col-contenu {
     width: 31%;
     border-radius: 15px;
-    border: 3px solid #9CC0DE;
+    border: 3px solid var(--color2);
 }
 
 div.col-contenu {
@@ -543,7 +545,7 @@ div.barre-verticale {
 }
 
 .image-bordered {
-    border: 3px solid #454545;
+    border: 1px solid gray;
 }
 
 .image-shadow {
@@ -587,14 +589,22 @@ h2.frame-title {
 
 div.frame img {
     width: 100px;
+    outline: 2px solid var(--color2);
+    border-radius: 50%;
 }
 
 
 // PORTFOLIO
+.portfolio-project-page {
+    min-height: 100vh;
+}
+
 .portfolio-header {
     height: 90px;
     background: url(../Images/header.webp) no-repeat center/cover;
     position: relative;
+    display: flex;
+    
 }
 
 .portfolio-header-title {
@@ -602,7 +612,6 @@ div.frame img {
     font-size: 26px;
     font-weight: bold;
     color: white;
-    padding-top: 4px;
     padding-left: 8px;
 }
 
@@ -905,7 +914,7 @@ img.portfolio {
 
     .portfolio-header-title {
         font-size: 19px;
-        padding-top: 10px;
+        padding-top: 15px;
         padding-left: 4px;
     }
 

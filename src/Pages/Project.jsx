@@ -19,7 +19,7 @@ function Project() {
 
 
     return (
-        <div className={`${colorMainMode}`}>
+        <div className={`${colorMainMode} portfolio-project-page`}>
             {/* SECTION GRISE TITRE */}
             <div className={`section section-grise-project${colorElementMode} project-section`}>
                 <div className={`section-grise-project-overlay${colorElementMode}`} />

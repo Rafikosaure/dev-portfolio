@@ -59,7 +59,7 @@ function Header() {
                 <header className="portfolio-header">
                     <div
                         className="texte-avec-ligne-verticale"
-                        style={{ marginLeft: 16, marginTop: 22, height: 45 }}
+                        style={{ marginLeft: 16, height: 45 }}
                     >
                         <p className="portfolio-header-title">Rafik Ben Sadi</p>
                     </div>
