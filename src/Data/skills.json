@@ -80,6 +80,16 @@
 				"picture": "Images/skills_icons/redux.svg"
 			},
 			{
+				"id": "9sXo7n2h5l8v1uP",
+				"name": "v0",
+				"picture": "Images/skills_icons/v0.svg"
+			},
+			{
+				"id": "9sXo7n2h5l8v1uP",
+				"name": "WordPress",
+				"picture": "Images/skills_icons/wordpress.svg"
+			},
+			{
 				"id": "3nx524yR5XirpMZ",
 				"name": "TypeScript",
 				"picture": "Images/skills_icons/typescript.svg"
@@ -118,6 +128,11 @@
 				"id": "bWLTxKQg7TMc2by",
 				"name": "Tailwind CSS",
 				"picture": "Images/skills_icons/tailwind.svg"
+			},
+			{
+				"id": "9sXo7n2h5l8v1uP",
+				"name": "Styled Components",
+				"picture": "Images/skills_icons/styledcomponents.svg"
 			},
 			{
 				"id": "UuyXEHaNXpVoHLO",
@@ -166,6 +181,11 @@
 				"picture": "Images/skills_icons/mysql.svg"
 			},
 			{
+				"id": "9sXo7n2h5l8v1uP",
+				"name": "MariaDB",
+				"picture": "Images/skills_icons/mariadb.svg"
+			},
+			{
 				"id": "RPMeR336I76T9jA",
 				"name": "PostgreSQL",
 				"picture": "Images/skills_icons/postgresql.svg"
@@ -174,6 +194,11 @@
 				"id": "eM1Qr8lGw8AYEIt",
 				"name": "Sequelize",
 				"picture": "Images/skills_icons/sequelize.svg"
+			},
+			{
+				"id": "9sXo7n2h5l8v1uP",
+				"name": "Supabase",
+				"picture": "Images/skills_icons/supabase.svg"
 			},
 			{
 				"id": "iRvCCPihU2ThjT3",
@@ -282,6 +307,11 @@
 				"picture": "Images/skills_icons/heygenai.png"
 			},
 			{
+				"id": "9sXo7n2h5l8v1uP",
+				"name": "Perplexity AI",
+				"picture": "Images/skills_icons/perplexity.svg"
+			},
+			{
 				"id": "MNHiyj8DImxkNNw",
 				"name": "Make",
 				"picture": "Images/skills_icons/make.png"
@@ -365,6 +395,11 @@
 				"id": "GEdUqjgfLlyvK3l",
 				"name": "Méthode Kanban",
 				"picture": "Images/skills_icons/kanban.png"
+			},
+			{
+				"id": "9sXo7n2h5l8v1uP",
+				"name": "LinkedIn",
+				"picture": "Images/skills_icons/linkedin.svg"
 			}
   		]
 	},
@@ -381,6 +416,11 @@
 				"id": "ifE3oSugYMcxuu8",
 				"name": "GitHub",
 				"picture": "Images/skills_icons/github.svg"
+			},
+			{
+				"id": "9sXo7n2h5l8v1uP",
+				"name": "Replit",
+				"picture": "Images/skills_icons/replit.svg"
 			},
 			{
 				"id": "q5vHxwS26T4e5pG",
@@ -560,9 +600,29 @@
 				"picture": "Images/skills_icons/claude.svg"
 			},
 			{
+				"id": "9sXo7n2h5l8v1uP",
+				"name": "Gemini",
+				"picture": "Images/skills_icons/gemini.svg"
+			},
+			{
+				"id": "9sXo7n2h5l8v1uP",
+				"name": "Microsoft Copilot",
+				"picture": "Images/skills_icons/microsoft-copilot.svg"
+			},
+			{
 				"id": "tIim96tZoqnQ36j",
 				"name": "Github Copilot",
-				"picture": "Images/skills_icons/copilot.svg"
+				"picture": "Images/skills_icons/github-copilot.svg"
+			},
+			{
+				"id": "9sXo7n2h5l8v1uP",
+				"name": "Ollama",
+				"picture": "Images/skills_icons/ollama.svg"
+			},
+			{
+				"id": "9sXo7n2h5l8v1uP",
+				"name": "Open WebUI",
+				"picture": "Images/skills_icons/openwebui.svg"
 			},
 			{
 				"id": "q7W4viIJzqDvN0o",
