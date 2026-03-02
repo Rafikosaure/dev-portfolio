@@ -31,7 +31,7 @@ function Header() {
                     />
                     <h1>Rafik Ben Sadi</h1>
                     <p className="cover-description">
-                        Développeur Web | Stack MERN - SQL - Python
+                        Développeur Web | Stacks MERN & SERN - Python
                     </p>
                     <div style={{ textAlign: 'center' }}>
                         <a
