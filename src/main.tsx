@@ -12,7 +12,8 @@ import Project from './Pages/Project'
 import ScrollToTop from './Hooks/ScrollToTop'
 import { ThemeProvider } from './Context/ThemeContext'
 
-const root = ReactDOM.createRoot(document.getElementById('root'))
+// L'élément #root est garanti par index.html — assertion non-nulle justifiée
+const root = ReactDOM.createRoot(document.getElementById('root')!)
 
 root.render(
   <React.StrictMode>

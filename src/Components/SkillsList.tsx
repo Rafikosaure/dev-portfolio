@@ -1,9 +1,22 @@
 import { useState } from "react";
 import { useMarqueeDuration } from "../Hooks/useMarqueeDuration";
+import type { SkillCategory } from "../types";
+import type { CSSProperties } from "react";
 
-function SkillsList({ data, animDirection, speedPxPerSec = 60 }) {
+// Type étendu pour accepter les propriétés CSS personnalisées (--var)
+interface CSSPropertiesWithVars extends CSSProperties {
+    [key: `--${string}`]: string | number | undefined;
+}
+
+interface SkillsListProps {
+    data: SkillCategory;
+    animDirection: "normal" | "reverse";
+    speedPxPerSec?: number;
+}
+
+function SkillsList({ data, animDirection, speedPxPerSec = 60 }: SkillsListProps) {
     const skills = data.skills;
-    const [isInteracting, setIsInteracting] = useState(false);
+    const [isInteracting, setIsInteracting] = useState<boolean>(false);
 
     const cardW = 200; // largeur carte
     const gap = 20;
@@ -32,8 +45,8 @@ function SkillsList({ data, animDirection, speedPxPerSec = 60 }) {
                 animationPlayState: isInteracting ? 'paused' : 'running',
                 animationDirection: animDirection, // "normal" | "reverse"
                 animationDuration: initialDuration, // fallback
-                ...style,                          // --duration calculée
-            }}
+                ...(style as CSSPropertiesWithVars), // --duration calculée
+            } as CSSPropertiesWithVars}
             >
             {skills.map((item) => (
                 <span className="list-item-competence" key={item.id}>

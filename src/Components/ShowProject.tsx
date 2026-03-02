@@ -1,8 +1,13 @@
 import '../Styles/theme.scss'
 import Slideshow from '../Components/Slideshow'
 import { Link } from 'react-router-dom'
+import type { Project } from '../types'
 
-function ShowProject({ currentDatas }) {
+interface ShowProjectProps {
+    currentDatas: Pick<Project, 'urlSite' | 'cover' | 'pictures' | 'urlRepo' | 'title'>
+}
+
+function ShowProject({ currentDatas }: ShowProjectProps) {
 
     return (
         <div style={{ textAlign: 'center', marginTop: 30 }}>
@@ -45,7 +50,7 @@ function ShowProject({ currentDatas }) {
                 >
                     Consulter le code du projet
                 </Link>
-            )}                
+            )}
         </div>
     )
 }

@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react'
 
 function Header() {
     const location = useLocation()
-    const [switchModeTitle, setSwitchModeTitle] = useState('sombre')
+    const [switchModeTitle, setSwitchModeTitle] = useState<string>('sombre')
     const { toggleTheme, colorElementMode, colorMainMode } = useTheme()
 
     useEffect(() => {
@@ -71,7 +71,7 @@ function Header() {
                     </a>
                 </header>
                 </>
-                
+
             )}
         </div>
     )

@@ -2,9 +2,14 @@ import { Link } from 'react-router-dom'
 import { useInView } from 'react-intersection-observer'
 import { useTheme } from '../Context/ThemeContext';
 import '../Styles/theme.scss'
+import type { Project } from '../types'
 
 
-function Card({ project }) {
+interface CardProps {
+    project: Pick<Project, 'id' | 'shortTitle' | 'cover'>
+}
+
+function Card({ project }: CardProps) {
     const { ref: myCard, inView: myCardIsVisible } = useInView();
     const { colorElementMode } = useTheme()
 

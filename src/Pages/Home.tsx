@@ -1,13 +1,11 @@
 import '../Styles/theme.scss'
 import Profile2 from '../Images/profile2.webp'
 import LinkedIn from '../Images/linkedin.svg'
-import CV_Icon from '../Images/cv.png'
 import CV_OnlineIcon from '../Images/cv_online.png'
 import GithubIcon from '../Images/github.svg'
-import CV_File from '../CV/CV_BenSadi_Rafik.pdf'
 import Card from '../Components/Card'
-import projects from '../Data/projects.json'
-import skills from '../Data/skills.json'
+import projectsData from '../Data/projects.json'
+import skillsData from '../Data/skills.json'
 import SkillsList from '../Components/SkillsList'
 import textProfile from '../Data/profileText'
 import { MARQUEE_SPEED_PX_PER_SEC } from '../Config/marqueeConfig'
@@ -16,13 +14,17 @@ import { Link } from 'react-router-dom'
 import { useInView } from 'react-intersection-observer'
 import { useTheme } from '../Context/ThemeContext'
 import { useEffect } from 'react'
+import type { Project, SkillCategory } from '../types'
+
+const projects = projectsData as Project[]
+const skills = skillsData as SkillCategory[]
 
 
 function Home() {
 
     const { ref: revealCitation, inView: myCitationIsVisible } = useInView();
     const { ref: myPortfolio, inView: myPortfolioIsVisible } = useInView();
-    const text = `"Un bon programmeur est quelqu’un qui regarde toujours des deux côtés avant de traverser une rue à sens unique." - Doug Linder, historien et développeur`
+    const text = `"Un bon programmeur est quelqu'un qui regarde toujours des deux côtés avant de traverser une rue à sens unique." - Doug Linder, historien et développeur`
     const citation = useTypingEffect(text, 30)
     const { colorMainMode, colorElementMode, getStoredTheme } = useTheme()
 
@@ -75,7 +77,7 @@ function Home() {
                         {citation}
                     </div>
                 </div>
-                
+
                 {/* SECTION BLANCHE 2 */}
                 <div className="section section-top">
 
@@ -89,7 +91,7 @@ function Home() {
                     <SkillsList data={skills[5]} animDirection='normal' speedPxPerSec={MARQUEE_SPEED_PX_PER_SEC} />
                     <SkillsList data={skills[6]} animDirection='reverse' speedPxPerSec={MARQUEE_SPEED_PX_PER_SEC} />
                 </div>
-                
+
                 {/* SECTION GRISE 3 */}
                 <div ref={myPortfolio} className={`section section-grise3${colorElementMode} section-top`}>
                     <div className={`section-grise3-overlay${colorElementMode}`} />
@@ -101,7 +103,7 @@ function Home() {
                         ))}
                         </div>
                     </div>
-                    
+
                 </div>
                 <div className={`linear-gradient${colorElementMode} linear-gradient-height`}></div>
             </main>

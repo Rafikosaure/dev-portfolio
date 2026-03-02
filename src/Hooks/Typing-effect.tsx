@@ -2,10 +2,11 @@ import { useEffect, useState, useRef } from "react";
 
 
 export function useTypingEffect(
-    textToType, interKeyStrokeDurationInMs
-) {
-    const [currentPosition, setCurrentPosition] = useState(0)
-    const currentPositionRef = useRef(0)
+    textToType: string,
+    interKeyStrokeDurationInMs: number
+): string {
+    const [currentPosition, setCurrentPosition] = useState<number>(0)
+    const currentPositionRef = useRef<number>(0)
 
     useEffect(() => {
         const intervalId = setInterval(() => {
@@ -21,6 +22,6 @@ export function useTypingEffect(
             setCurrentPosition(0)
         }
     }, [interKeyStrokeDurationInMs, textToType])
-    
+
     return textToType.substring(0, currentPosition)
 }

@@ -1,4 +1,11 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
+import type { CSSProperties } from "react";
+import type { MarqueeOptions } from "../types";
+
+// Étend CSSProperties pour accepter les propriétés CSS personnalisées (--var)
+interface CSSPropertiesWithVars extends CSSProperties {
+  [key: `--${string}`]: string | number | undefined;
+}
 
 /** useLayoutEffect côté client, useEffect côté SSR (Next.js, etc.) */
 const useIsoLayoutEffect =
@@ -7,13 +14,6 @@ const useIsoLayoutEffect =
 /**
  * Calcule la durée CSS d'une animation de type "marquee" pour garantir
  * une vitesse constante en px/s, quelle que soit la longueur de la liste.
- *
- * @param {Object} opts
- * @param {number} [opts.speed=60]             - Vitesse en px/s (identique partout)
- * @param {number} [opts.duplicationFactor=2]  - 2 si tu as dupliqué la liste (recommandé)
- * @param {number} [opts.minDuration=6]        - Durée min (s) pour éviter des anim trop rapides
- * @param {number} [opts.maxDuration=120]      - Durée max (s) pour éviter des anim trop lentes
- * @param {boolean} [opts.watchParent=true]    - Observe aussi le parent (responsive)
  */
 export function useMarqueeDuration({
   speed = 60,
@@ -21,9 +21,9 @@ export function useMarqueeDuration({
   minDuration = 6,
   maxDuration = 120,
   watchParent = true,
-} = {}) {
-  const ref = useRef(null);
-  const [duration, setDuration] = useState(null);
+}: MarqueeOptions = {}) {
+  const ref = useRef<HTMLDivElement>(null);
+  const [duration, setDuration] = useState<string | null>(null);
 
   useIsoLayoutEffect(() => {
     const el = ref.current;
@@ -57,7 +57,10 @@ export function useMarqueeDuration({
   }, [speed, duplicationFactor, minDuration, maxDuration, watchParent]);
 
   // Pratique à coller dans style={}
-  const style = useMemo(() => (duration ? { "--duration": duration } : {}), [duration]);
+  const style = useMemo<CSSPropertiesWithVars>(
+    () => (duration ? { "--duration": duration } : {}),
+    [duration]
+  );
 
   return { ref, duration, style };
 }

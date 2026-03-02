@@ -1,14 +1,17 @@
 import '../Styles/theme.scss'
-import Projects from '../Data/projects.json'
+import projectsData from '../Data/projects.json'
 import ShowProject from '../Components/ShowProject'
 import { useParams } from 'react-router'
 import { useInView } from 'react-intersection-observer'
 import { useTheme } from '../Context/ThemeContext'
 import { useEffect } from 'react'
+import type { Project } from '../types'
+
+const Projects = projectsData as Project[]
 
 
-function Project() {
-    const { projectId } = useParams()
+function ProjectPage() {
+    const { projectId } = useParams<{ projectId: string }>()
     const currentDatas = Projects.find((project) => project.id === projectId)
     const { ref: myProject, inView: myProjectIsVisible } = useInView();
     const { colorElementMode, colorMainMode, getStoredTheme } = useTheme()
@@ -17,6 +20,13 @@ function Project() {
         getStoredTheme()
     }, [getStoredTheme])
 
+    if (!currentDatas) {
+        return (
+            <div className={`${colorMainMode} portfolio-project-page`}>
+                <p style={{ padding: '2rem' }}>Projet introuvable.</p>
+            </div>
+        )
+    }
 
     return (
         <div className={`${colorMainMode} portfolio-project-page`}>
@@ -47,4 +57,4 @@ function Project() {
     )
 }
 
-export default Project
+export default ProjectPage

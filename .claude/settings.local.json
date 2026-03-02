@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --version)",
+      "Bash(npm --version)",
+      "Bash(npm install --save-dev typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin)"
+    ]
+  }
+}
