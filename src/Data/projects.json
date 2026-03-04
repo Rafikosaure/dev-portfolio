@@ -46,8 +46,8 @@
 		"cover": "Images/nina_carducci_photographe.webp",
 		"description": "Le site Web de la photographe Nina Carducci existait déjà lorsque j'ai été sollicité pour ce projet : il s'agissait ici de débugguer le site et de l'optimiser pour son référencement sur les moteurs de recherche. Durant cette nouvelle mission, j'ai mis en place des outils et techniques pour que ce site soit le mieux classé possible dans les résultats de Google et qu'il soit, de manière plus générale, mieux visible sur le Web. J'ai fait en sorte qu'il soit autant accessible pour les personnes souffrant de handicaps que pour celles qui n'en souffrent pas. J'ai travaillé à ce que les bonnes pratiques de conception soient appliquées de manière à améliorer le SEO ainsi que les performances générales du site, par exemple en allégeant au maxmimum les images du site tout en gardant une qualité qui fasse honneur au travail de Nina. En effet, il m'a été particulièrement ardu de booster autant que souhaité les performances de ce site en raison de sa nature même : il comporte de nombreuses photographies très lourdes à charger au démarrage, et les alléger suffisamment sans en altérer la qualité a été un défi peu commun.",
 		"technologies": "LIGHTHOUSE, WAVE, HEADINGSMAP, CHROME DEV TOOLS, SCHEMA.ORG, COMPRESSOR.IO, MINIFY JS ONLINE, MINIFY CSS, entre autres.",
-		"urlSite": "https://rafikosaure.github.io/nina-carducci-photographe-pro/",
-		"urlRepo": "https://nina-carducci-rho.vercel.app/"
+		"urlSite": "https://nina-carducci-rho.vercel.app",
+		"urlRepo": "https://github.com/Rafikosaure/nina-carducci-photographe-pro"
 	},
 	{
 		"id": "cb2f9222",
