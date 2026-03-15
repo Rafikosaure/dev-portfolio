@@ -24,8 +24,8 @@ function Home() {
 
     const { ref: revealCitation, inView: myCitationIsVisible } = useInView();
     const { ref: myPortfolio, inView: myPortfolioIsVisible } = useInView();
-    const text = `"Un bon programmeur est quelqu'un qui regarde toujours des deux côtés avant de traverser une rue à sens unique." - Doug Linder, historien et développeur`
-    const citation = useTypingEffect(text, 30)
+    const text = `"Un bon programmeur est quelqu'un qui regarde toujours des deux côtés avant de traverser une rue à sens unique." — Doug Linder, historien et développeur`
+    const citation = useTypingEffect(text, 30, myCitationIsVisible)
     const { colorMainMode, colorElementMode, getStoredTheme } = useTheme()
 
 
@@ -73,10 +73,10 @@ function Home() {
                 {/* SECTION GRISE 2 */}
                 <div className={`section section-grise2${colorElementMode}`}>
                     <div className={`section-grise2-overlay${colorElementMode}`} />
-                    <div ref={revealCitation} className={`${'div-citation'} ${'reveal-text'} ${myCitationIsVisible ? 'reveal-text-visible': ''}`}>
-                        {citation}
+                        <div ref={revealCitation} className={`${'div-citation'} ${'reveal-text'} ${myCitationIsVisible ? 'reveal-text-visible' : ''}`}>
+                            {citation}
+                        </div>                        
                     </div>
-                </div>
 
                 {/* SECTION BLANCHE 2 */}
                 <div className="section section-top">
